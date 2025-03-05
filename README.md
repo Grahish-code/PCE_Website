@@ -1,0 +1,1 @@
+This project is the result of a collaborative effort by a team of dedicated contributors. Each member has made significant contributions to its development, and we appreciate their hard work and commitment to excellence.
