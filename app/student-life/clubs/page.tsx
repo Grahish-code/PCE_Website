@@ -10,44 +10,49 @@ export default function ClubsPage() {
       id: "tapas",
       name: "TAPAS PCE",
       description:
-        "Technical Association for Promotion of Advanced Studies (TAPAS) is a student-led technical club that organizes workshops, seminars, and competitions to promote technical knowledge and skills.",
+        "A student-led organization dedicated to innovation and social initiatives, working on impactful projects that benefit the community. Members engage in mentoring sessions, leadership training, and workshops designed to develop critical problem-solving skills.",
       icon: <Cpu className="h-8 w-8" />,
       image: "/placeholder.svg?height=400&width=600&text=TAPAS+PCE",
       activities: [
-        "Technical workshops and seminars",
-        "Project competitions",
-        "Industry visits",
-        "Technical paper presentations",
+        "Mentoring sessions",
+        "leadership training",
+        "community projects",
+        "social initiatives",
+        "skill development workshops",
       ],
+      Club_College:"PCE",
+     
     },
     {
       id: "csi",
       name: "CSI PCE",
       description:
-        "Computer Society of India (CSI) student chapter at PCE organizes various events to enhance the technical knowledge of students in the field of computer science and information technology.",
+        "Computer Society of India (CSI) student chapter at PCE Encourages participation in technology-driven projects, coding challenges, and research-based competitions. Students can gain hands-on experience in software development and connect with industry experts through seminars and conferences.",
       icon: <Code className="h-8 w-8" />,
       image: "/placeholder.svg?height=400&width=600&text=CSI+PCE",
-      activities: ["Coding competitions", "Technical workshops", "Guest lectures", "Industry-academia interactions"],
+      activities: ["Coding competitions", "Technical workshops", "Guest lectures", "Industry-academia interactions","Hackathons"],
+      Club_College:"PCE",
     },
     {
       id: "gdg",
       name: "GDG PCE",
       description:
-        "Google Developer Group (GDG) at PCE is a community of developers interested in Google's developer technologies. The club organizes events and workshops to promote Google technologies.",
+        "Google Developer Group (GDG) at PCE is a hub for aspiring developers to enhance their programming skills, participate in hackathons, and learn from industry experts. The club regularly hosts Google-sponsored events and knowledge-sharing sessions on the latest technological advancements.",
       icon: <Lightbulb className="h-8 w-8" />,
       image: "/placeholder.svg?height=400&width=600&text=GDG+PCE",
       activities: [
-        "Android development workshops",
+        "coding boot camps",
         "Web development sessions",
         "Cloud computing workshops",
         "Hackathons",
       ],
+      Club_College:"PCE", 
     },
     {
       id: "ishrae",
       name: "ISHRAE",
       description:
-        "Indian Society of Heating, Refrigerating and Air Conditioning Engineers (ISHRAE) student chapter focuses on promoting knowledge and skills in HVAC&R technologies among engineering students.",
+        "Indian Society of Heating, Refrigerating and Air Conditioning Engineers (ISHRAE) student chapter aims to promote awareness and research in the field of HVAC (Heating, Ventilation, and Air Conditioning) through seminars, industry interactions, and technical sessions.",
       icon: <Wrench className="h-8 w-8" />,
       image: "/placeholder.svg?height=400&width=600&text=ISHRAE",
       activities: [
@@ -56,12 +61,13 @@ export default function ClubsPage() {
         "Technical competitions",
         "Guest lectures by industry experts",
       ],
+      Club_College:"PCE"
     },
     {
       id: "tpc",
       name: "TPC PCE",
       description:
-        "Technical Paper Club (TPC) encourages students to engage in research activities and publish technical papers in reputed journals and conferences.",
+        "Technical Paper Club (TPC) guides students in career planning, resume building, and interview preparation through workshops and mentorship sessions. Industry collaboration and internship programs ensure that students are job-ready upon graduation.",
       icon: <BookOpen className="h-8 w-8" />,
       image: "/placeholder.svg?height=400&width=600&text=TPC+PCE",
       activities: [
@@ -70,15 +76,17 @@ export default function ClubsPage() {
         "Conference participation",
         "Research project guidance",
       ],
+      Club_College:"PCE"
     },
     {
       id: "student-council",
       name: "Student Council",
       description:
-        "The Student Council is the official representative body of students that organizes various events and activities to enhance student life on campus.",
+        "The Student Council is the official representative body of students who organizes student-led initiatives, cultural activities, leadership training programs, and social awareness campaigns. The council acts as a bridge between students and the administration, ensuring holistic development and representation of student interests",
       icon: <Users className="h-8 w-8" />,
       image: "/placeholder.svg?height=400&width=600&text=Student+Council",
       activities: ["Cultural events", "Sports competitions", "Student welfare activities", "Inter-college events"],
+      Club_College:"PCE"
     },
     {
       id: "ieee",
@@ -93,6 +101,7 @@ export default function ClubsPage() {
         "Technical paper presentations",
         "Industry-academia interactions",
       ],
+      Club_College:"PCE"
     },
   ]
 
