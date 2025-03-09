@@ -8,6 +8,7 @@ export default function ArchitecturePage() {
   const programs = [
     {
       name: "Bachelor of Architecture (B.Arch)",
+      slug: "bachelor-of-architecture",
       duration: "5 years",
       description:
         "Comprehensive program covering architectural design, building construction, history of architecture, and professional practice.",
@@ -16,6 +17,7 @@ export default function ArchitecturePage() {
     },
     {
       name: "Master of Architecture (M.Arch)",
+      slug: "master-of-architecture",
       duration: "2 years",
       description:
         "Advanced study in architectural design with specializations in urban design, landscape architecture, and sustainable design.",
@@ -23,12 +25,14 @@ export default function ArchitecturePage() {
     },
     {
       name: "Master of Urban Planning",
+      slug: "master-of-urban-planning",
       duration: "2 years",
       description: "Specialized program focusing on urban planning, development, and management of urban spaces.",
       eligibility: "B.Arch or B.Planning degree with minimum 55% aggregate marks and valid entrance test score.",
     },
     {
       name: "Ph.D. in Architecture",
+      slug: "phd-in-architecture",
       duration: "3-5 years",
       description: "Research-focused program for advancing knowledge in various architectural disciplines.",
       eligibility: "M.Arch degree with minimum 60% aggregate marks and entrance test/interview.",
@@ -155,7 +159,11 @@ export default function ArchitecturePage() {
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="flex flex-col md:flex-row md:items-center">
                   <div className="md:w-1/4 mb-4 md:mb-0">
-                    <h3 className="text-xl font-bold text-white">{program.name}</h3>
+                    <h3 className="text-xl font-bold text-white">
+                      <Link href={`/programs/${program.slug}`} className="hover:underline">
+                        {program.name}
+                      </Link>
+                    </h3>
                     <div className="flex items-center text-blue-200 mt-2">
                       <Clock className="h-4 w-4 mr-2" />
                       <span>{program.duration}</span>
@@ -174,6 +182,8 @@ export default function ArchitecturePage() {
               </div>
             ))}
           </div>
+
+          
         </div>
       </section>
 

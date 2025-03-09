@@ -10,28 +10,29 @@ export default function Home() {
     {
       name: "Pillai College of Architecture",
       description:
-        "Fostering creativity and innovation in architectural design with state-of-the-art facilities and experienced faculty. Our programs are accredited by the Council of Architecture.",
+        "Pillai College of Architecture (PCA) is a renowned institution dedicated to excellence in architectural education. Affiliated with the University of Mumbai and approved by the Council of Architecture (COA), PCA offers innovative programs that blend creativity, technology, and sustainability. With a focus on hands-on learning, research, and industry collaboration, PCA prepares students to become skilled architects ready to shape the future of design and urban development.",
       image: "/placeholder.svg?height=300&width=500&text=Architecture",
       link: "/colleges#architecture",
     },
     {
       name: "Pillai College of Arts, Commerce and Science",
       description:
-        "Offering diverse programs in arts, commerce, and science with a focus on holistic development and industry-relevant skills. Our graduates excel in various fields globally.",
+        "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs. Affiliated with the University of Mumbai, the college is accredited with an A+ grade by NAAC. With a strong focus on academic excellence, skill development, and holistic growth, PCACS provides a dynamic learning environment equipped with modern facilities, industry collaborations, and extracurricular opportunities.",
       image: "/placeholder.svg?height=300&width=500&text=Arts+Commerce+Science",
       link: "/colleges#arts",
     },
     {
       name: "Pillai College of Engineering (Autonomous)",
       description:
-        "An autonomous institution known for excellence in engineering education with cutting-edge research facilities. Our engineering programs are AICTE approved and NBA accredited.",
+        "Pillai College of Engineering (PCE), established in 1999, is a distinguished engineering college in India, accredited with an A+ grade by NAAC. Approved by AICTE and affiliated with the University of Mumbai, PCE is recognized by the Government of Maharashtra and DTE. The college attained Autonomous status from the University Grants Commission (UGC) in 2021, ensuring academic excellence and innovation in engineering education.",
       image: "/placeholder.svg?height=300&width=500&text=Engineering",
       link: "/colleges#engineering",
     },
     {
       name: "Pillai Institute of Management Studies and Research",
       description:
-        "Developing future business leaders through comprehensive management education and industry collaborations. Our MBA program is ranked among the top in the region.",
+        "Pillai Institute of Management Studies and Research (PIMSR) is a leading management institute committed to academic excellence and industry-oriented learning. Approved by AICTE and affiliated with the University of Mumbai, PIMSR offers a dynamic curriculum designed to develop future business leaders. With a focus on innovation, entrepreneurship, and holistic development, the institute provides a vibrant learning environment supported by experienced faculty, state-of-the-art infrastructure, and strong industry collaborations."
+,
       image: "/placeholder.svg?height=300&width=500&text=Management",
       link: "/colleges#management",
     },
@@ -78,8 +79,7 @@ export default function Home() {
                   <div>
                     <h3 className="font-semibold text-lg text-white">Academic Excellence</h3>
                     <p className="text-blue-100">
-                      Rigorous academic programs designed to foster critical thinking and innovation, taught by faculty
-                      with extensive industry experience and research backgrounds.
+                    Rigorous programs designed to foster knowledge, innovation, and critical thinking.
                     </p>
                   </div>
                 </li>
@@ -88,10 +88,9 @@ export default function Home() {
                     2
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-white">Industry Connections</h3>
+                    <h3 className="font-semibold text-lg text-white">Cutting-Edge Infrastructure:</h3>
                     <p className="text-blue-100">
-                      Strong partnerships with industry leaders providing internships, job opportunities, and real-world
-                      projects. Our placement cell ensures students find rewarding careers.
+                    Modern labs, digital resources, and collaborative learning spaces.
                     </p>
                   </div>
                 </li>
@@ -100,10 +99,9 @@ export default function Home() {
                     3
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-white">Modern Infrastructure</h3>
+                    <h3 className="font-semibold text-lg text-white">Industry Connections</h3>
                     <p className="text-blue-100">
-                      State-of-the-art facilities including advanced labs, digital libraries, smart classrooms, and
-                      recreational spaces spread across our 50-acre green campus.
+                    Strong collaborations with top companies for internships and placements.
                     </p>
                   </div>
                 </li>
@@ -112,10 +110,42 @@ export default function Home() {
                     4
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-white">Global Exposure</h3>
+                    <h3 className="font-semibold text-lg text-white">Global Perspective: </h3>
                     <p className="text-blue-100">
-                      International collaborations and exchange programs with renowned universities worldwide, providing
-                      students with global perspectives and opportunities.
+                    Opportunities for international exchange, research, and networking.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex">
+                  <div className="mr-4 flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-white text-blue-600">
+                    5
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg text-white">Holistic Development: </h3>
+                    <p className="text-blue-100">
+                     Focus on leadership, ethics, and personal growth beyond academics.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex">
+                  <div className="mr-4 flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-white text-blue-600">
+                    6
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg text-white">Vibrant Campus Life: </h3>
+                    <p className="text-blue-100">
+                     A diverse and inclusive environment with extracurricular and cultural activities.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex">
+                  <div className="mr-4 flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-white text-blue-600">
+                    7
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg text-white">Strong Alumni Network:</h3>
+                    <p className="text-blue-100">
+                    A community of successful professionals supporting career growth.
                     </p>
                   </div>
                 </li>

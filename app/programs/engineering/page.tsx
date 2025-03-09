@@ -7,11 +7,8 @@ import { CheckCircle, Clock, Calendar, Users, GraduationCap, Award } from "lucid
 export default function EngineeringPage() {
   const programs = [
     {
-      name: (
-        <Link href="/programs/engineering/btech-computer-engineering">
-          B.Tech in Computer Engineering
-        </Link>
-      ),
+      name: "B.Tech in Computer Engineering",
+      slug: "bachelor-of-technology-computer-engineering",
       duration: "4 years",
       description:
         "Learn to design and develop computer systems, software applications, and cutting-edge technologies.",
@@ -20,6 +17,7 @@ export default function EngineeringPage() {
     },
     {
       name: "B.Tech in Information Technology",
+      slug: "bachelor-of-technology-information-technology",
       duration: "4 years",
       description: "Focus on information systems, data management, cybersecurity, and emerging IT trends.",
       eligibility:
@@ -27,13 +25,15 @@ export default function EngineeringPage() {
     },
     {
       name: "B.Tech in Artificial Intelligence & Data Science",
+      slug: "bachelor-of-technology-artificial-intelligence-and-data-science",
       duration: "4 years",
-      description: "Focus on information systems, data management, cybersecurity, and emerging IT trends.",
+      description: "Focus on information systems, data management, cybersecurity, and emerging AI trends.",
       eligibility:
         "10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate marks and valid JEE Main score.",
     },
     {
       name: "B.Tech in Electronics & Telecommunication",
+      slug: "bachelor-of-technology-electronics-and-telecommunication",
       duration: "4 years",
       description: "Study electronic devices, communication systems, signal processing, and network technologies.",
       eligibility:
@@ -41,6 +41,7 @@ export default function EngineeringPage() {
     },
     {
       name: "B.Tech in Mechanical Engineering",
+      slug: "bachelor-of-technology-mechanical-engineering",
       duration: "4 years",
       description: "Learn about mechanical systems, thermodynamics, manufacturing processes, and automation.",
       eligibility:
@@ -48,6 +49,7 @@ export default function EngineeringPage() {
     },
     {
       name: "B.Tech in Civil Engineering",
+      slug: "bachelor-of-technology-civil-engineering",
       duration: "4 years",
       description:
         "Study structural engineering, construction management, environmental systems, and infrastructure design.",
@@ -56,6 +58,7 @@ export default function EngineeringPage() {
     },
     {
       name: "M.Tech in Computer Engineering",
+      slug: "master-of-technology-computer-engineering",
       duration: "2 years",
       description:
         "Advanced study in artificial intelligence, machine learning, cloud computing, and software engineering.",
@@ -63,12 +66,14 @@ export default function EngineeringPage() {
     },
     {
       name: "M.Tech in Electronics & Telecommunication",
+      slug: "master-of-technology-electronics-and-telecommunication",
       duration: "2 years",
       description: "Specialized study in VLSI design, embedded systems, wireless communications, and IoT.",
       eligibility: "B.Tech/B.E. degree in relevant discipline with minimum 55% aggregate marks and valid GATE score.",
     },
     {
       name: "Ph.D. in Engineering",
+      slug: "doctor-of-philosophy-engineering",
       duration: "3-5 years",
       description: "Research-focused program for advancing knowledge in various engineering disciplines.",
       eligibility: "M.Tech/M.E. degree with minimum 60% aggregate marks and entrance test/interview.",
@@ -193,7 +198,11 @@ export default function EngineeringPage() {
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="flex flex-col md:flex-row md:items-center">
                   <div className="md:w-1/4 mb-4 md:mb-0">
-                    <h3 className="text-xl font-bold text-white">{program.name}</h3>
+                    <h3 className="text-xl font-bold text-white">
+                      <Link href={`/programs/${program.slug}`} className="hover:underline">
+                        {program.name}
+                      </Link>
+                    </h3>
                     <div className="flex items-center text-blue-200 mt-2">
                       <Clock className="h-4 w-4 mr-2" />
                       <span>{program.duration}</span>
@@ -324,3 +333,4 @@ export default function EngineeringPage() {
     </>
   )
 }
+

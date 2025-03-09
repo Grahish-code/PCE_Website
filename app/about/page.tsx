@@ -23,18 +23,10 @@ export default function AboutPage() {
             <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold sm:text-4xl mb-6">Our History</h2>
               <p className="text-muted-foreground mb-4">
-                Founded in 1998, Pillai University has grown from a small college to a comprehensive university with
-                four prestigious colleges offering diverse programs in architecture, arts, commerce, science,
-                engineering, and management.
+              Founded in 1965, the Pillai Group of Institutions (Mahatma Education Society - MES) has grown from a visionary initiative into a distinguished name in education. With a commitment to academic excellence, research, and holistic development, MES has nurtured thousands of students, empowering them to become leaders in various fields. Over the decades, we have expanded into a network of prestigious institutions offering engineering, management, commerce, arts, science, architecture, and professional studies.
               </p>
               <p className="text-muted-foreground mb-4">
-                Over the past two decades, we have established ourselves as a center of academic excellence, research,
-                and innovation. Our commitment to quality education has earned us recognition from various national and
-                international accreditation bodies.
-              </p>
-              <p className="text-muted-foreground">
-                Today, Pillai University stands tall as an institution that not only imparts knowledge but also shapes
-                character, instills values, and prepares students to be responsible global citizens.
+              Today, we stand as a multi-disciplinary educational powerhouse, recognized for our world-class faculty, cutting-edge research, state-of-the-art infrastructure, and industry-integrated learning experiences. Our institutions emphasize innovation, inclusivity, and global perspectives, ensuring that every student is prepared for the challenges of tomorrow
               </p>
             </div>
           </div>
@@ -74,7 +66,7 @@ export default function AboutPage() {
                 <ul className="space-y-2 text-blue-100">
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                    <span>Provide quality education that fosters critical thinking, creativity, and innovation</span>
+                    <span>Deliver transformative education that nurtures critical thinking, creativity, and innovation.</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
@@ -114,13 +106,13 @@ export default function AboutPage() {
                 icon: <BookOpen className="h-8 w-8" />,
                 title: "Excellence",
                 description:
-                  "Striving for the highest standards in all our endeavors, from academics to research to administration.",
+                  "Committed to achieving the highest standards in education, research, and administration, ensuring academic and professional excellence .",
               },
               {
                 icon: <Users className="h-8 w-8" />,
                 title: "Inclusivity",
                 description:
-                  "Embracing diversity and ensuring equal opportunities for all, regardless of background or identity.",
+                  "Embracing diversity and fostering an environment where everyone, regardless of background or identity, has equal opportunities to thrive.",
               },
               {
                 icon: <Target className="h-8 w-8" />,
@@ -130,7 +122,7 @@ export default function AboutPage() {
               {
                 icon: <Globe className="h-8 w-8" />,
                 title: "Global Perspective",
-                description: "Fostering an international outlook and preparing students for a globalized world.",
+                description: "Fostering an international outlook and preparing students for a globalized world. an international outlook and preparing students for a globalized world.",
               },
               {
                 icon: <Award className="h-8 w-8" />,
@@ -167,31 +159,66 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <div key={item} className="card-3d rounded-xl overflow-hidden">
-                <div className="bg-white dark:bg-gray-800">
-                  <div className="relative h-64">
-                    <Image
-                      src={`/placeholder.svg?height=400&width=300&text=Leader ${item}`}
-                      alt={`Leader ${item}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold mb-1">Dr. John Doe</h3>
-                    <p className="text-primary mb-4">
-                      {item === 1 ? "Chancellor" : item === 2 ? "Vice Chancellor" : "Dean of Academics"}
-                    </p>
-                    <p className="text-muted-foreground mb-4">
-                      Ph.D. in Education from Harvard University with over 20 years of experience in academic
-                      leadership.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+  <div className="card-3d rounded-xl overflow-hidden">
+    <div className="bg-white dark:bg-gray-800">
+      <div className="relative h-64">
+        <Image
+          src={`/placeholder.svg?height=400&width=300&text=Leader 1`}
+          alt="Leader 1"
+          fill
+          className="object-cover"
+        />
+      </div>
+      <div className="p-6">
+        <h3 className="text-xl font-bold mb-1">Dr. K. M. Vasudevan Pillai</h3>
+        <p className="text-primary mb-4">Chairman & CEO</p>
+        <p className="text-muted-foreground mb-4">We are committed to provide a holistic education based on new generation academics that creates powerful global career options to our students and at the same time make them key contributors to the society at large. We strive to achieve nation building by emphasizing on character building of individual. This is done through approach of mentoring.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="card-3d rounded-xl overflow-hidden">
+    <div className="bg-white dark:bg-gray-800">
+      <div className="relative h-64">
+        <Image
+          src={`/placeholder.svg?height=400&width=300&text=Leader 2`}
+          alt="Leader 2"
+          fill
+          className="object-cover"
+        />
+      </div>
+      <div className="p-6">
+        <h3 className="text-xl font-bold mb-1">Dr. Daphne Pillai</h3>
+        <p className="text-primary mb-4">Secretary</p>
+        <p className="text-muted-foreground mb-4">In this fiercely competitive world, success has several dimensions far widespread than the vortex of academia, spreading its tentacles into diverse fields which one has to adapt to. Our objective at Pillai is to provide you the right environment which will enable you to fulfill all aspirations and ambitions. Very often one is not even aware of one’s own capabilities and we at Pillai’s believe that even if we succeed in making the student scratch the tip of iceberg, we have set the ball rolling for individuals to achieve ultimate success in life.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="card-3d rounded-xl overflow-hidden">
+    <div className="bg-white dark:bg-gray-800">
+      <div className="relative h-64">
+        <Image
+          src={`/placeholder.svg?height=400&width=300&text=Leader 3`}
+          alt="Leader 3"
+          fill
+          className="object-cover"
+        />
+      </div>
+      <div className="p-6">
+        <h3 className="text-xl font-bold mb-1">Dr. Sandeep Joshi</h3>
+        <p className="text-primary mb-4">Principal PCE</p>
+        <p className="text-muted-foreground mb-4">Dr. Joshi holds a Doctorate degree in Mechanical Engineering from IIT Bombay and has over 23 years of professional experience.
+His research areas include Heat Transfer, Sustainable renewable energy, Low cost solar energy utilization, Waste heat recovery and Energy management. He has two Indian Patents on Solar Air Heater and Solar Agro produce Dryer. He also has 14 papers in International Journals of well repute and 18 papers in peer reviewed international conferences.
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
           <div className="mt-12 text-center">
             <Button asChild>

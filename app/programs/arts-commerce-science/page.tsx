@@ -8,6 +8,7 @@ export default function ArtsCommerceScience() {
   const programs = [
     {
       name: "Bachelor of Arts (B.A.)",
+      slug: "bachelor-of-arts",
       duration: "3 years",
       description:
         "Comprehensive programs in humanities subjects including English, Psychology, Sociology, Economics, and more.",
@@ -15,36 +16,42 @@ export default function ArtsCommerceScience() {
     },
     {
       name: "Bachelor of Commerce (B.Com)",
+      slug: "bachelor-of-commerce",
       duration: "3 years",
       description: "Study of commerce, accounting, finance, economics, and business management principles.",
       eligibility: "10+2 or equivalent with minimum 45% aggregate marks in relevant stream.",
     },
     {
       name: "Bachelor of Science (B.Sc)",
+      slug: "bachelor-of-science",
       duration: "3 years",
       description: "Programs in Physics, Chemistry, Mathematics, Computer Science, and Life Sciences.",
       eligibility: "10+2 or equivalent with minimum 45% aggregate marks in relevant stream.",
     },
     {
       name: "Master of Arts (M.A.)",
+      slug: "master-of-arts",
       duration: "2 years",
       description: "Advanced study in humanities subjects with specialization options.",
       eligibility: "Bachelor's degree in relevant discipline with minimum 50% aggregate marks.",
     },
     {
       name: "Master of Commerce (M.Com)",
+      slug: "master-of-commerce",
       duration: "2 years",
       description: "Advanced study in commerce, accounting, finance, and business management.",
       eligibility: "Bachelor's degree in relevant discipline with minimum 50% aggregate marks.",
     },
     {
       name: "Master of Science (M.Sc)",
+      slug: "master-of-science",
       duration: "2 years",
       description: "Advanced study in science subjects with research opportunities.",
       eligibility: "Bachelor's degree in relevant discipline with minimum 50% aggregate marks.",
     },
     {
       name: "Ph.D. Programs",
+      slug: "phd-programs",
       duration: "3-5 years",
       description: "Research-focused programs in various disciplines of arts, commerce, and science.",
       eligibility:
@@ -170,7 +177,11 @@ export default function ArtsCommerceScience() {
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="flex flex-col md:flex-row md:items-center">
                   <div className="md:w-1/4 mb-4 md:mb-0">
-                    <h3 className="text-xl font-bold text-white">{program.name}</h3>
+                    <h3 className="text-xl font-bold text-white">
+                      <Link href={`/programs/${program.slug}`} className="hover:underline">
+                        {program.name}
+                      </Link>
+                    </h3>
                     <div className="flex items-center text-blue-200 mt-2">
                       <Clock className="h-4 w-4 mr-2" />
                       <span>{program.duration}</span>

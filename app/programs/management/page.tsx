@@ -8,6 +8,7 @@ export default function ManagementPage() {
   const programs = [
     {
       name: "Master of Business Administration (MBA)",
+      slug: "master-of-business-administration",
       duration: "2 years",
       description:
         "Comprehensive management education with specializations in Finance, Marketing, HR, Operations, and more.",
@@ -16,24 +17,28 @@ export default function ManagementPage() {
     },
     {
       name: "Executive MBA",
+      slug: "executive-mba",
       duration: "1 year",
       description: "Accelerated program for working professionals with at least 3 years of work experience.",
       eligibility: "Bachelor's degree with minimum 50% aggregate marks and minimum 3 years of work experience.",
     },
     {
       name: "MBA in Business Analytics",
+      slug: "mba-in-business-analytics",
       duration: "2 years",
       description: "Specialized program focusing on data analytics, business intelligence, and decision-making.",
       eligibility: "Bachelor's degree with minimum 50% aggregate marks and valid entrance test score.",
     },
     {
       name: "MBA in Digital Marketing",
+      slug: "mba-in-digital-marketing",
       duration: "2 years",
       description: "Specialized program focusing on digital marketing strategies, social media, and e-commerce.",
       eligibility: "Bachelor's degree with minimum 50% aggregate marks and valid entrance test score.",
     },
     {
       name: "Ph.D. in Management",
+      slug: "phd-in-management",
       duration: "3-5 years",
       description: "Research-focused program for advancing knowledge in various management disciplines.",
       eligibility:
@@ -159,7 +164,11 @@ export default function ManagementPage() {
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="flex flex-col md:flex-row md:items-center">
                   <div className="md:w-1/4 mb-4 md:mb-0">
-                    <h3 className="text-xl font-bold text-white">{program.name}</h3>
+                    <h3 className="text-xl font-bold text-white">
+                      <Link href={`/programs/${program.slug}`} className="hover:underline">
+                        {program.name}
+                      </Link>
+                    </h3>
                     <div className="flex items-center text-blue-200 mt-2">
                       <Clock className="h-4 w-4 mr-2" />
                       <span>{program.duration}</span>
