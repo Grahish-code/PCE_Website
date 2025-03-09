@@ -27,41 +27,41 @@ export default function AchievementsPage() {
 
   const achievements = [
     {
-      title: "NAAC 'A++' Accreditation",
+      title: "NAAC 'A+' Accreditation",
       description:
-        "Received the highest grade from the National Assessment and Accreditation Council for academic excellence.",
-      year: "2023",
+        "Autonomous status granted by UGC from the academic year 2021-22. Recognized under UGC sections 12(b) and 2(f).",
+      year: "2021",
       icon: <Award className="h-8 w-8" />,
     },
     {
-      title: "Top 50 Universities in India",
-      description: "Ranked among the top 50 universities in India by the Ministry of Education's NIRF rankings.",
+      title: "Pillai College of Arts, Commerce, and Science (PCACS)",
+      description: "Accredited in all three cycles. Permanently affiliated with the University of Mumbai. ISO 9001:2015 certified.",
       year: "2023",
       icon: <Trophy className="h-8 w-8" />,
     },
     {
-      title: "Excellence in Research Award",
-      description: "Recognized for outstanding contributions to research in renewable energy technologies.",
-      year: "2022",
+      title: "Pillai College of Architecture (PiCA)",
+      description: "Accredited in its first accreditation cycle. Established in 1992. Authorized NATA test center.",
+      year: "2023",
       icon: <Star className="h-8 w-8" />,
     },
     {
-      title: "Best Infrastructure Award",
-      description: "Awarded for having state-of-the-art campus facilities and modern learning environments.",
-      year: "2022",
+      title: "NIRF Ranking",
+      description: "Ranked among the Top 50 Universities in India for its academic and research standards.",
+      year: "2024",
       icon: <CheckCircle className="h-8 w-8" />,
     },
     {
-      title: "Innovation Hub Recognition",
-      description: "Designated as an Innovation Hub by the Ministry of Science and Technology for promoting startups.",
-      year: "2021",
+      title: "AICTE & NBA Approvals",
+      description: "Recognized by AICTE, UGC, and NBA for its state-of-the-art facilities and education system.",
+      year: "2024",
       icon: <Target className="h-8 w-8" />,
     },
     {
-      title: "International Collaboration Excellence",
+      title: "NBA Accreditation for PCE",
       description:
-        "Recognized for establishing successful academic partnerships with over 20 international universities.",
-      year: "2021",
+        "Departments like Automobile, Computer, IT, E&TC, and Mechanical Engineering accredited until 2025.",
+      year: "2024",
       icon: <Globe className="h-8 w-8" />,
     },
     {
@@ -122,49 +122,49 @@ export default function AchievementsPage() {
 
   const studentAchievements = [
     {
-      title: "National Robotics Competition",
+      title: "Smart India Hackathon 2020",
       description:
-        "First place in the National Robotics Competition organized by the Ministry of Science and Technology.",
+        "Two student teams became National Winners in the Smart India Hackathon.",
       image: "/placeholder.svg?height=300&width=500&text=Robotics",
       year: "2023",
-      students: ["Rahul Sharma", "Priya Patel", "Amit Kumar"],
+      students: ["Team 1", "Team 2"],
     },
     {
-      title: "International Hackathon",
-      description: "Our students secured the second position in the International Hackathon held in Singapore.",
+      title: "Smart India Hackathon 2022",
+      description: "Team Homebrew won the first prize of ₹1,00,000, and Team SARBOT won ₹75,000.",
       image: "/placeholder.svg?height=300&width=500&text=Hackathon",
-      year: "2023",
-      students: ["Neha Singh", "Vikram Reddy", "Sanjay Mehta"],
+      year: "2022",
+      students: ["Team Homebrew", "Team SARBOT"],
     },
     {
-      title: "Cultural Festival",
-      description: "Won the Best College Award at the Inter-University Cultural Festival for three consecutive years.",
+      title: "Smart India Hackathon 2023",
+      description: "Team Herculean won the Hardware Edition of the Smart India Hackathon.",
       image: "/placeholder.svg?height=300&width=500&text=Cultural",
-      year: "2022-2023",
-      students: ["Ananya Desai", "Rohan Kapoor", "Meera Joshi"],
+      year: "2023",
+      students: ["Team Herculean"],
     },
     {
-      title: "IEEE Paper Presentation",
+      title: "KAVACH Cybersecurity Hackathon 2023",
       description:
-        "Students from our Engineering college won the Best Paper Award at the IEEE International Conference.",
+        "PCE participants actively participated in the KAVACH Cybersecurity Hackathon.",
       image: "/placeholder.svg?height=300&width=500&text=IEEE",
       year: "2022",
-      students: ["Karan Shah", "Divya Nair", "Arjun Menon"],
+      students: ["PCE Participants"],
     },
     {
-      title: "National Design Competition",
-      description: "Architecture students won first prize in the National Sustainable Design Competition.",
+      title: "National Hackathon 2025",
+      description: "Om Sandip Patil won ₹1,00,000 in the National Hackathon.",
       image: "/placeholder.svg?height=300&width=500&text=Design",
-      year: "2022",
-      students: ["Riya Patel", "Aditya Sharma", "Zara Khan"],
+      year: "2025",
+      students: ["Om Sandip Patil"],
     },
     {
-      title: "Business Plan Competition",
+      title: "HackCelestial 1.0 (2024)",
       description:
-        "MBA students secured top position in the National Business Plan Competition with their innovative startup idea.",
+        "PCE participants were recognized for outstanding contributions in HackCelestial 1.0.",
       image: "/placeholder.svg?height=300&width=500&text=Business",
-      year: "2021",
-      students: ["Vivek Malhotra", "Sneha Gupta", "Raj Kapoor"],
+      year: "2024",
+      students: ["PCE Participants"],
     },
   ]
 
@@ -201,31 +201,31 @@ export default function AchievementsPage() {
 
   const researchHighlights = [
     {
-      title: "Renewable Energy Solutions",
-      description: "Developing innovative solar and wind energy technologies for sustainable power generation",
-      impact: "Potential to provide clean energy to rural communities at 30% lower cost",
-      researchers: "Dr. Amit Singh, Dr. Priya Sharma, and team",
+      title: "Research Publications",
+      description: "Pillai College of Engineering (PCE) published 50+ papers in 2022-2023, 150+ in 2021-2022, and 39 in 2020-2021.",
+      impact: "Significant contributions to academic knowledge and innovation.",
+      researchers: "Faculty and students across all institutions",
       image: "/placeholder.svg?height=300&width=500&text=Renewable+Energy",
     },
     {
-      title: "AI in Healthcare",
-      description: "Using artificial intelligence for early detection of chronic diseases through non-invasive methods",
-      impact: "Improved diagnosis accuracy by 40% in preliminary trials",
-      researchers: "Dr. Rajesh Kumar, Dr. Meera Joshi, and team",
+      title: "Artificial Intelligence and Machine Learning Lab",
+      description: "Funded by AICTE, this lab focuses on cutting-edge AI and ML research in Computer Engineering.",
+      impact: "Enhancing research capabilities in AI and ML.",
+      researchers: "Faculty and student team",
       image: "/placeholder.svg?height=300&width=500&text=AI+Healthcare",
     },
     {
-      title: "Sustainable Architecture",
-      description: "Developing eco-friendly building materials and designs for urban environments",
-      impact: "Reduces carbon footprint by 35% compared to conventional construction",
-      researchers: "Prof. Anand Mehta, Dr. Riya Patel, and team",
+      title: "Conducting Polymer Composites",
+      description: "Development, Synthesis, and Characterization of Conducting Polymer Composites, funded by the University of Mumbai.",
+      impact: "Innovative research in Mechanical Engineering.",
+      researchers: "Dr. Priam Pillai",
       image: "/placeholder.svg?height=300&width=500&text=Sustainable+Architecture",
     },
     {
-      title: "Financial Inclusion Models",
-      description: "Creating innovative financial models to extend banking services to underserved communities",
-      impact: "Successfully implemented in 50+ villages, benefiting over 10,000 families",
-      researchers: "Dr. Sunita Patel, Prof. Vikram Reddy, and team",
+      title: "Research Papers and Book Chapters",
+      description: "PCACS published research papers and book chapters with internal funding of ₹85,000.",
+      impact: "Contributing to academic knowledge in Arts, Commerce, and Science.",
+      researchers: "Various faculty members",
       image: "/placeholder.svg?height=300&width=500&text=Financial+Inclusion",
     },
   ]
@@ -566,4 +566,3 @@ export default function AchievementsPage() {
     </>
   )
 }
-
