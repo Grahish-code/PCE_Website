@@ -1,0 +1,340 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+
+    --radius: 0.5rem;
+
+    /* Custom university theme colors */
+    --blue-light: 214 100% 70%;
+    --blue-medium: 214 100% 50%;
+    --blue-dark: 214 100% 30%;
+
+    /* Gradient colors */
+    --gradient-start: 214 100% 60%;
+    --gradient-end: 224 100% 40%;
+
+    /* Additional gradient colors */
+    --gradient-blue-purple-start: 214 100% 60%;
+    --gradient-blue-purple-end: 260 100% 60%;
+
+    --gradient-blue-teal-start: 214 100% 60%;
+    --gradient-blue-teal-end: 180 100% 50%;
+
+    --gradient-blue-cyan-start: 214 100% 60%;
+    --gradient-blue-cyan-end: 190 100% 50%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+
+    /* Custom university theme colors */
+    --blue-light: 214 70% 60%;
+    --blue-medium: 214 70% 40%;
+    --blue-dark: 214 70% 20%;
+
+    /* Gradient colors */
+    --gradient-start: 214 70% 50%;
+    --gradient-end: 224 70% 30%;
+
+    /* Additional gradient colors */
+    --gradient-blue-purple-start: 214 70% 50%;
+    --gradient-blue-purple-end: 260 70% 50%;
+
+    --gradient-blue-teal-start: 214 70% 50%;
+    --gradient-blue-teal-end: 180 70% 40%;
+
+    --gradient-blue-cyan-start: 214 70% 50%;
+    --gradient-blue-cyan-end: 190 70% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Gradient backgrounds */
+.gradient-blue {
+  background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+}
+
+.gradient-blue-reverse {
+  background: linear-gradient(135deg, hsl(var(--gradient-end)), hsl(var(--gradient-start)));
+}
+
+.gradient-blue-purple {
+  background: linear-gradient(135deg, hsl(var(--gradient-blue-purple-start)), hsl(var(--gradient-blue-purple-end)));
+}
+
+.gradient-blue-teal {
+  background: linear-gradient(135deg, hsl(var(--gradient-blue-teal-start)), hsl(var(--gradient-blue-teal-end)));
+}
+
+.gradient-blue-cyan {
+  background: linear-gradient(135deg, hsl(var(--gradient-blue-cyan-start)), hsl(var(--gradient-blue-cyan-end)));
+}
+
+.gradient-radial {
+  background: radial-gradient(circle at center, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+}
+
+.gradient-conic {
+  background: conic-gradient(
+    from 0deg,
+    hsl(var(--gradient-start)),
+    hsl(var(--gradient-end)),
+    hsl(var(--gradient-start))
+  );
+}
+
+/* Gradient text */
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  /* Add text shadow for better visibility in light mode */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text-blue-purple {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    135deg,
+    hsl(var(--gradient-blue-purple-start)),
+    hsl(var(--gradient-blue-purple-end))
+  );
+  /* Add text shadow for better visibility in light mode */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text-blue-teal {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, hsl(var(--gradient-blue-teal-start)), hsl(var(--gradient-blue-teal-end)));
+  /* Add text shadow for better visibility in light mode */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced Card Effects */
+.card-hover {
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+.card-hover:hover::before {
+  opacity: 1;
+}
+
+.card-hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+/* Card with gradient border */
+.card-with-border {
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background-color: hsl(var(--card));
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-with-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Section alternating colors */
+.section-alternate:nth-child(odd) {
+  background-color: hsl(var(--background));
+}
+
+.section-alternate:nth-child(even) {
+  background-color: hsl(var(--secondary));
+}
+
+/* Menu hover animation */
+.nav-link {
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Hero section animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-slide {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .gradient-text,
+  .gradient-text-blue-purple,
+  .gradient-text-blue-teal {
+    background-size: 100%;
+    /* Enhance visibility in light mode on mobile */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 800;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+  }
+}
+
+/* Light mode specific adjustments for gradient text */
+@media (prefers-color-scheme: light) {
+  .gradient-text,
+  .gradient-text-blue-purple,
+  .gradient-text-blue-teal {
+    /* Darker gradient colors for better visibility in light mode */
+    background-image: linear-gradient(135deg, hsl(214, 100%, 40%), hsl(224, 100%, 30%));
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Dark mode specific adjustments for gradient text */
+.dark .gradient-text,
+.dark .gradient-text-blue-purple,
+.dark .gradient-text-blue-teal {
+  /* Brighter gradient colors for better visibility in dark mode */
+  background-image: linear-gradient(135deg, hsl(214, 100%, 70%), hsl(224, 100%, 60%));
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+/* Hero section text enhancement for better visibility */
+.hero-text-enhanced {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+}
+
