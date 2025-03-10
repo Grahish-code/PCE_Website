@@ -8,14 +8,14 @@ import HeroCarousel from "@/components/hero-carousel"
 export default function Home() {
   const colleges = [
     {
-      name: "Pillai College of Architecture",
+      name: "Pillai College of Architecture (Autonomous)",
       description:
         "Pillai College of Architecture (PCA) is a renowned institution dedicated to excellence in architectural education. Affiliated with the College of Mumbai and approved by the Council of Architecture (COA), PCA offers innovative programs that blend creativity, technology, and sustainability. With a focus on hands-on learning, research, and industry collaboration, PCA prepares students to become skilled architects ready to shape the future of design and urban development.",
       image: "/placeholder.svg?height=300&width=500&text=Architecture",
       link: "/colleges#architecture",
     },
     {
-      name: "Pillai College of Arts, Commerce and Science",
+      name: "Pillai College of Arts, Commerce and Science (Autonomous)",
       description:
         "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs. Affiliated with the College of Mumbai, the college is accredited with an A+ grade by NAAC. With a strong focus on academic excellence, skill development, and holistic growth, PCACS provides a dynamic learning environment equipped with modern facilities, industry collaborations, and extracurricular opportunities.",
       image: "/placeholder.svg?height=300&width=500&text=Arts+Commerce+Science",
@@ -29,7 +29,7 @@ export default function Home() {
       link: "/colleges#engineering",
     },
     {
-      name: "Pillai Institute of Management Studies and Research",
+      name: "Pillai Institute of Management Studies and Research (Autonomous)",
       description:
         "Pillai Institute of Management Studies and Research (PIMSR) is a leading management institute committed to academic excellence and industry-oriented learning. Approved by AICTE and affiliated with the College of Mumbai, PIMSR offers a dynamic curriculum designed to develop future business leaders. With a focus on innovation, entrepreneurship, and holistic development, the institute provides a vibrant learning environment supported by experienced faculty, state-of-the-art infrastructure, and strong industry collaborations."
 ,
