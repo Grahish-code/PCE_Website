@@ -24,18 +24,26 @@ export default function EngineeringPage() {
         "10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate marks and valid JEE Main score.",
     },
     {
-      name: "B.Tech in Artificial Intelligence & Data Science",
-      slug: "bachelor-of-technology-artificial-intelligence-and-data-science",
+      name: "B.Tech in Electronics & Computer Science",
+      slug: "bachelor-of-technology-electronics-computer-science",
       duration: "4 years",
-      description: "Focus on information systems, data management, cybersecurity, and emerging AI trends.",
+      description: "Focus on information systems, data management, cybersecurity, and emerging IT trends.",
       eligibility:
         "10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate marks and valid JEE Main score.",
     },
     {
       name: "B.Tech in Electronics & Telecommunication",
-      slug: "bachelor-of-technology-electronics-and-telecommunication",
+      slug: "bachelor-of-technology-electronics-telecommunication",
       duration: "4 years",
-      description: "Study electronic devices, communication systems, signal processing, and network technologies.",
+      description: "Focus on information systems, data management, cybersecurity, and emerging IT trends.",
+      eligibility:
+        "10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate marks and valid JEE Main score.",
+    },
+    {
+      name: "B.Tech in Automobile Engineering",
+      slug: "bachelor-of-technology-automobile-engineering",
+      duration: "4 years",
+      description: "Focus on information systems, data management, cybersecurity, and emerging AI trends.",
       eligibility:
         "10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate marks and valid JEE Main score.",
     },
@@ -48,15 +56,6 @@ export default function EngineeringPage() {
         "10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate marks and valid JEE Main score.",
     },
     {
-      name: "B.Tech in Civil Engineering",
-      slug: "bachelor-of-technology-civil-engineering",
-      duration: "4 years",
-      description:
-        "Study structural engineering, construction management, environmental systems, and infrastructure design.",
-      eligibility:
-        "10+2 with Physics, Chemistry, and Mathematics with minimum 50% aggregate marks and valid JEE Main score.",
-    },
-    {
       name: "M.Tech in Computer Engineering",
       slug: "master-of-technology-computer-engineering",
       duration: "2 years",
@@ -65,20 +64,62 @@ export default function EngineeringPage() {
       eligibility: "B.Tech/B.E. degree in relevant discipline with minimum 55% aggregate marks and valid GATE score.",
     },
     {
-      name: "M.Tech in Electronics & Telecommunication",
-      slug: "master-of-technology-electronics-and-telecommunication",
+      name: "M.Tech in Information Technology",
+      slug: "master-of-technology-information-technology",
       duration: "2 years",
       description: "Specialized study in VLSI design, embedded systems, wireless communications, and IoT.",
       eligibility: "B.Tech/B.E. degree in relevant discipline with minimum 55% aggregate marks and valid GATE score.",
     },
     {
-      name: "Ph.D. in Engineering",
-      slug: "doctor-of-philosophy-engineering",
-      duration: "3-5 years",
-      description: "Research-focused program for advancing knowledge in various engineering disciplines.",
+      name: "M.Tech in Electronics Engineering",
+      slug: "master-of-technology-electronics-engineering",
+      duration: "2 years",
+      description: "Specialized study in VLSI design, embedded systems, wireless communications, and IoT.",
+      eligibility: "B.Tech/B.E. degree in relevant discipline with minimum 55% aggregate marks and valid GATE score.",
+    },
+    {
+      name: "M.E in Mechanical Engineering(CAD/CAM and Robotics)",
+      slug: "master-of-engineering-mechanical-cad-cam-robotics",
+      duration: "2 years",
+      description: "Specialized study in CAD/CAM and robotics.",
+      eligibility: "B.Tech/B.E. degree in relevant discipline with minimum 55% aggregate marks and valid GATE score.",
+    },
+    {
+      name: "M.E in Mechanical Engineering(Thermal Engineering)",
+      slug: "master-of-engineering-mechanical-thermal-engineering",
+      duration: "2 years",
+      description: "Specialized study in thermal engineering.",
+      eligibility: "B.Tech/B.E. degree in relevant discipline with minimum 55% aggregate marks and valid GATE score.",
+    },
+    {
+      name: "Ph.D. in Computer Engineering",
+      slug: "doctor-of-philosophy-computer-engineering",
+      duration: "2-5 years",
+      description: "Research-focused program in computer engineering.",
       eligibility: "M.Tech/M.E. degree with minimum 60% aggregate marks and entrance test/interview.",
     },
-  ]
+    {
+      name: "Ph.D. in Electronic Engineering",
+      slug: "doctor-of-philosophy-electronic-engineering",
+      duration: "2-5 years",
+      description: "Research-focused program in electronic engineering.",
+      eligibility: "M.Tech/M.E. degree with minimum 60% aggregate marks and entrance test/interview.",
+    },
+    {
+      name: "Ph.D. in Information Engineering",
+      slug: "doctor-of-philosophy-information-engineering",
+      duration: "2-5 years",
+      description: "Research-focused program in information engineering.",
+      eligibility: "M.Tech/M.E. degree with minimum 60% aggregate marks and entrance test/interview.",
+    },
+    {
+      name: "Ph.D. in Mechanical Engineering",
+      slug: "doctor-of-philosophy-mechanical-engineering",
+      duration: "3-5 years",
+      description: "Research-focused program for advancing knowledge in mechanical engineering.",
+      eligibility: "M.Tech/M.E. degree with minimum 60% aggregate marks and entrance test/interview.",
+    },
+]
 
   const facilities = [
     {

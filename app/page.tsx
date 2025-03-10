@@ -10,28 +10,28 @@ export default function Home() {
     {
       name: "Pillai College of Architecture",
       description:
-        "Pillai College of Architecture (PCA) is a renowned institution dedicated to excellence in architectural education. Affiliated with the University of Mumbai and approved by the Council of Architecture (COA), PCA offers innovative programs that blend creativity, technology, and sustainability. With a focus on hands-on learning, research, and industry collaboration, PCA prepares students to become skilled architects ready to shape the future of design and urban development.",
+        "Pillai College of Architecture (PCA) is a renowned institution dedicated to excellence in architectural education. Affiliated with the College of Mumbai and approved by the Council of Architecture (COA), PCA offers innovative programs that blend creativity, technology, and sustainability. With a focus on hands-on learning, research, and industry collaboration, PCA prepares students to become skilled architects ready to shape the future of design and urban development.",
       image: "/placeholder.svg?height=300&width=500&text=Architecture",
       link: "/colleges#architecture",
     },
     {
       name: "Pillai College of Arts, Commerce and Science",
       description:
-        "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs. Affiliated with the University of Mumbai, the college is accredited with an A+ grade by NAAC. With a strong focus on academic excellence, skill development, and holistic growth, PCACS provides a dynamic learning environment equipped with modern facilities, industry collaborations, and extracurricular opportunities.",
+        "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs. Affiliated with the College of Mumbai, the college is accredited with an A+ grade by NAAC. With a strong focus on academic excellence, skill development, and holistic growth, PCACS provides a dynamic learning environment equipped with modern facilities, industry collaborations, and extracurricular opportunities.",
       image: "/placeholder.svg?height=300&width=500&text=Arts+Commerce+Science",
       link: "/colleges#arts",
     },
     {
       name: "Pillai College of Engineering (Autonomous)",
       description:
-        "Pillai College of Engineering (PCE), established in 1999, is a distinguished engineering college in India, accredited with an A+ grade by NAAC. Approved by AICTE and affiliated with the University of Mumbai, PCE is recognized by the Government of Maharashtra and DTE. The college attained Autonomous status from the University Grants Commission (UGC) in 2021, ensuring academic excellence and innovation in engineering education.",
+        "Pillai College of Engineering (PCE), established in 1999, is a distinguished engineering college in India, accredited with an A+ grade by NAAC. Approved by AICTE and affiliated with the College of Mumbai, PCE is recognized by the Government of Maharashtra and DTE. The college attained Autonomous status from the College Grants Commission (UGC) in 2021, ensuring academic excellence and innovation in engineering education.",
       image: "/placeholder.svg?height=300&width=500&text=Engineering",
       link: "/colleges#engineering",
     },
     {
       name: "Pillai Institute of Management Studies and Research",
       description:
-        "Pillai Institute of Management Studies and Research (PIMSR) is a leading management institute committed to academic excellence and industry-oriented learning. Approved by AICTE and affiliated with the University of Mumbai, PIMSR offers a dynamic curriculum designed to develop future business leaders. With a focus on innovation, entrepreneurship, and holistic development, the institute provides a vibrant learning environment supported by experienced faculty, state-of-the-art infrastructure, and strong industry collaborations."
+        "Pillai Institute of Management Studies and Research (PIMSR) is a leading management institute committed to academic excellence and industry-oriented learning. Approved by AICTE and affiliated with the College of Mumbai, PIMSR offers a dynamic curriculum designed to develop future business leaders. With a focus on innovation, entrepreneurship, and holistic development, the institute provides a vibrant learning environment supported by experienced faculty, state-of-the-art infrastructure, and strong industry collaborations."
 ,
       image: "/placeholder.svg?height=300&width=500&text=Management",
       link: "/colleges#management",
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold sm:text-4xl text-white mb-6">Why Choose Pillai University?</h2>
+              <h2 className="text-3xl font-bold sm:text-4xl text-white mb-6">Why Choose Pillai College?</h2>
               <ul className="space-y-4">
                 <li className="flex">
                   <div className="mr-4 flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-white text-blue-600">
@@ -175,7 +175,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text-blue-teal">Latest News & Events</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Stay updated with the latest happenings at Pillai University, from academic achievements to cultural
+              Stay updated with the latest happenings at Pillai College, from academic achievements to cultural
               celebrations.
             </p>
           </div>
@@ -186,14 +186,14 @@ export default function Home() {
                 title: "International Conference on Sustainable Development",
                 date: "March 15, 2024",
                 description:
-                  "Pillai University hosts a global conference bringing together experts to discuss sustainable development goals and climate action.",
+                  "Pillai College hosts a global conference bringing together experts to discuss sustainable development goals and climate action.",
                 image: "/placeholder.svg?height=300&width=500&text=Conference",
               },
               {
                 title: "New Research Center for Artificial Intelligence",
                 date: "March 12, 2024",
                 description:
-                  "The university inaugurates a state-of-the-art research center dedicated to artificial intelligence and machine learning applications.",
+                  "The College inaugurates a state-of-the-art research center dedicated to artificial intelligence and machine learning applications.",
                 image: "/placeholder.svg?height=300&width=500&text=AI+Research",
               },
               {
@@ -309,7 +309,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Join Our Community</h2>
             <p className="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
-              Take the first step towards a bright future with Pillai University. Applications for the 2024-25 academic
+              Take the first step towards a bright future with Pillai College. Applications for the 2024-25 academic
               year are now open.
             </p>
           </div>

@@ -9,8 +9,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Pillai University",
-  description: "A modern university with four prestigious colleges",
+  title: "Pillai College",
+  description: "A modern College with four prestigious colleges",
     generator: 'v0.dev'
 }
 
