@@ -144,7 +144,7 @@ export default function AdmissionsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {admissionSteps.map((step, index) => (
               <div key={index} className="card-hover rounded-xl overflow-hidden">
-                <div className="gradient-blue p-6 h-full">
+                <div className="gradient-color-1 p-6 h-full">
                   <div className="flex items-center mb-4">
                     <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white text-blue-600 mr-4">
                       {index + 1}
@@ -168,7 +168,7 @@ export default function AdmissionsPage() {
         </div>
       </section>
 
-      <section id="eligibility" className="py-16 gradient-blue-purple text-white">
+      <section id="eligibility" className="py-16 gradient-color-1-2 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Eligibility Criteria</h2>
@@ -323,7 +323,7 @@ export default function AdmissionsPage() {
         </div>
       </section>
 
-      <section id="scholarships" className="py-16 gradient-blue-cyan text-white">
+      <section id="scholarships" className="py-16 gradient-color-1-3 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Scholarships & Financial Aid</h2>
@@ -415,7 +415,7 @@ export default function AdmissionsPage() {
               },
             ].map((item, index) => (
               <div key={index} className="card-hover rounded-xl overflow-hidden">
-                <div className="gradient-blue p-6">
+                <div className="gradient-color-1 p-6">
                   <div className="flex items-center mb-4">
                     <div className="mr-4 text-white">{item.icon}</div>
                     <h3 className="text-xl font-bold text-white">{item.event}</h3>

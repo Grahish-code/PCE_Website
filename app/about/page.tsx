@@ -44,7 +44,7 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card-3d rounded-xl overflow-hidden">
-              <div className="gradient-blue p-8 h-full">
+              <div className="gradient-color-1 p-8 h-full">
                 <div className="flex items-center mb-4">
                   <Target className="h-8 w-8 text-white mr-4" />
                   <h3 className="text-2xl font-bold text-white">Our Vision</h3>
@@ -58,7 +58,7 @@ export default function AboutPage() {
             </div>
 
             <div className="card-3d rounded-xl overflow-hidden">
-              <div className="gradient-blue-reverse p-8 h-full">
+              <div className="gradient-color-1-reverse p-8 h-full">
                 <div className="flex items-center mb-4">
                   <BookOpen className="h-8 w-8 text-white mr-4" />
                   <h3 className="text-2xl font-bold text-white">Our Mission</h3>
@@ -150,85 +150,129 @@ export default function AboutPage() {
       </section>
 
       <section className="py-16 section-alternate">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold sm:text-4xl">Leadership</h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Meet the visionaries guiding Pillai University towards excellence.
-            </p>
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-3xl font-bold sm:text-4xl">Leadership</h2>
+      <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+        Meet the visionaries guiding Pillai University towards excellence.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="card-3d rounded-xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-800">
+          <div className="relative h-64">
+            <Image
+              src={`/placeholder.svg?height=400&width=300&text=Leader 1`}
+              alt="Leader 1"
+              fill
+              className="object-cover"
+            />
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-  <div className="card-3d rounded-xl overflow-hidden">
-    <div className="bg-white dark:bg-gray-800">
-      <div className="relative h-64">
-        <Image
-          src={`/placeholder.svg?height=400&width=300&text=Leader 1`}
-          alt="Leader 1"
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="p-6">
-        <h3 className="text-xl font-bold mb-1">Dr. K. M. Vasudevan Pillai</h3>
-        <p className="text-primary mb-4">Chairman & CEO</p>
-        <p className="text-muted-foreground mb-4">We are committed to provide a holistic education based on new generation academics that creates powerful global career options to our students and at the same time make them key contributors to the society at large. We strive to achieve nation building by emphasizing on character building of individual. This is done through approach of mentoring.</p>
-      </div>
-    </div>
-  </div>
-
-  <div className="card-3d rounded-xl overflow-hidden">
-    <div className="bg-white dark:bg-gray-800">
-      <div className="relative h-64">
-        <Image
-          src={`/placeholder.svg?height=400&width=300&text=Leader 2`}
-          alt="Leader 2"
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="p-6">
-        <h3 className="text-xl font-bold mb-1">Dr. Daphne Pillai</h3>
-        <p className="text-primary mb-4">Secretary</p>
-        <p className="text-muted-foreground mb-4">In this fiercely competitive world, success has several dimensions far widespread than the vortex of academia, spreading its tentacles into diverse fields which one has to adapt to. Our objective at Pillai is to provide you the right environment which will enable you to fulfill all aspirations and ambitions. Very often one is not even aware of one’s own capabilities and we at Pillai’s believe that even if we succeed in making the student scratch the tip of iceberg, we have set the ball rolling for individuals to achieve ultimate success in life.</p>
-      </div>
-    </div>
-  </div>
-
-  <div className="card-3d rounded-xl overflow-hidden">
-    <div className="bg-white dark:bg-gray-800">
-      <div className="relative h-64">
-        <Image
-          src={`/placeholder.svg?height=400&width=300&text=Leader 3`}
-          alt="Leader 3"
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="p-6">
-        <h3 className="text-xl font-bold mb-1">Dr. Sandeep Joshi</h3>
-        <p className="text-primary mb-4">Principal PCE</p>
-        <p className="text-muted-foreground mb-4">Dr. Joshi holds a Doctorate degree in Mechanical Engineering from IIT Bombay and has over 23 years of professional experience.
-His research areas include Heat Transfer, Sustainable renewable energy, Low cost solar energy utilization, Waste heat recovery and Energy management. He has two Indian Patents on Solar Air Heater and Solar Agro produce Dryer. He also has 14 papers in International Journals of well repute and 18 papers in peer reviewed international conferences.
-</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-          <div className="mt-12 text-center">
-            <Button asChild>
-              <Link href="/leadership">View All Leadership Team</Link>
-            </Button>
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-1">Dr. K. M. Vasudevan Pillai</h3>
+            <p className="text-primary mb-4">Chairman & CEO</p>
+            <p className="text-muted-foreground mb-4">We are committed to provide a holistic education based on new generation academics that creates powerful global career options to our students and at the same time make them key contributors to the society at large. We strive to achieve nation building by emphasizing on character building of individual. This is done through approach of mentoring.</p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section className="py-16 gradient-blue text-white">
+      <div className="card-3d rounded-xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-800">
+          <div className="relative h-64">
+            <Image
+              src={`/placeholder.svg?height=400&width=300&text=Leader 2`}
+              alt="Leader 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-1">Dr. Daphne Pillai</h3>
+            <p className="text-primary mb-4">Secretary</p>
+            <p className="text-muted-foreground mb-4">In this fiercely competitive world, success has several dimensions far widespread than the vortex of academia, spreading its tentacles into diverse fields which one has to adapt to. Our objective at Pillai is to provide you the right environment which will enable you to fulfill all aspirations and ambitions. Very often one is not even aware of one’s own capabilities and we at Pillai’s believe that even if we succeed in making the student scratch the tip of iceberg, we have set the ball rolling for individuals to achieve ultimate success in life.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="card-3d rounded-xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-800">
+          <div className="relative h-64">
+            <Image
+              src={`/placeholder.svg?height=400&width=300&text=Leader 3`}
+              alt="Leader 3"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-1">Dr. Sandeep Joshi</h3>
+            <p className="text-primary mb-4">Principal PCE</p>
+            <p className="text-muted-foreground mb-4">Dr. Joshi holds a Doctorate degree in Mechanical Engineering from IIT Bombay and has over 23 years of professional experience.
+            His research areas include Heat Transfer, Sustainable renewable energy, Low cost solar energy utilization, Waste heat recovery and Energy management. He has two Indian Patents on Solar Air Heater and Solar Agro produce Dryer. He also has 14 papers in International Journals of well repute and 18 papers in peer reviewed international conferences.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="card-3d rounded-xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-800">
+          <div className="relative h-64">
+            <Image
+              src={`/placeholder.svg?height=400&width=300&text=Leader 4`}
+              alt="Leader 4"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-1">Leader 4 Name</h3>
+            <p className="text-primary mb-4">Position</p>
+            <p className="text-muted-foreground mb-4">Description of Leader 4.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="card-3d rounded-xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-800">
+          <div className="relative h-64">
+            <Image
+              src={`/placeholder.svg?height=400&width=300&text=Leader 5`}
+              alt="Leader 5"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-1">Leader 5 Name</h3>
+            <p className="text-primary mb-4">Position</p>
+            <p className="text-muted-foreground mb-4">Description of Leader 5.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="card-3d rounded-xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-800">
+          <div className="relative h-64">
+            <Image
+              src={`/placeholder.svg?height=400&width=300&text=Leader 6`}
+              alt="Leader 6"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-1">Leader 6 Name</h3>
+            <p className="text-primary mb-4">Position</p>
+            <p className="text-muted-foreground mb-4">Description of Leader 6.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <section className="py-16 gradient-color-1 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>

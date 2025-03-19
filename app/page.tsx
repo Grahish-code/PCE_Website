@@ -10,30 +10,29 @@ export default function Home() {
     {
       name: "Pillai College of Architecture (Autonomous)",
       description:
-        "Pillai College of Architecture (PCA) is a renowned institution dedicated to excellence in architectural education. Affiliated with the College of Mumbai and approved by the Council of Architecture (COA), PCA offers innovative programs that blend creativity, technology, and sustainability. With a focus on hands-on learning, research, and industry collaboration, PCA prepares students to become skilled architects ready to shape the future of design and urban development.",
-      image: "/placeholder.svg?height=300&width=500&text=Architecture",
+      "Pillai College of Architecture (PCA) is a renowned institution affiliated with the University of Mumbai and approved by the Council of Architecture. It offers innovative architectural programs focusing on creativity, technology, and sustainability, preparing students for careers in design and urban development.",
+            image: "/placeholder.svg?height=300&width=500&text=Architecture",
       link: "/colleges#architecture",
     },
     {
       name: "Pillai College of Arts, Commerce and Science (Autonomous)",
       description:
-        "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs. Affiliated with the College of Mumbai, the college is accredited with an A+ grade by NAAC. With a strong focus on academic excellence, skill development, and holistic growth, PCACS provides a dynamic learning environment equipped with modern facilities, industry collaborations, and extracurricular opportunities.",
-      image: "/placeholder.svg?height=300&width=500&text=Arts+Commerce+Science",
+      "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs, affiliated with the University of Mumbai. It provides a dynamic learning environment with modern facilities and industry collaborations, accredited with an 'A' grade by NAAC" ,
+           image: "/placeholder.svg?height=300&width=500&text=Arts+Commerce+Science",
       link: "/colleges#arts",
     },
     {
       name: "Pillai College of Engineering (Autonomous)",
       description:
-        "Pillai College of Engineering (PCE), established in 1999, is a distinguished engineering college in India, accredited with an A+ grade by NAAC. Approved by AICTE and affiliated with the College of Mumbai, PCE is recognized by the Government of Maharashtra and DTE. The college attained Autonomous status from the College Grants Commission (UGC) in 2021, ensuring academic excellence and innovation in engineering education.",
-      image: "/placeholder.svg?height=300&width=500&text=Engineering",
+      "Pillai College of Engineering (PCE), established in 1999, is a distinguished engineering college accredited with an A+ grade by NAAC and affiliated with the University of Mumbai. It gained autonomous status from UGC in 2021, enhancing its academic excellence and innovation in engineering education" , 
+          image: "/placeholder.svg?height=300&width=500&text=Engineering",
       link: "/colleges#engineering",
     },
     {
       name: "Pillai Institute of Management Studies and Research (Autonomous)",
       description:
-        "Pillai Institute of Management Studies and Research (PIMSR) is a leading management institute committed to academic excellence and industry-oriented learning. Approved by AICTE and affiliated with the College of Mumbai, PIMSR offers a dynamic curriculum designed to develop future business leaders. With a focus on innovation, entrepreneurship, and holistic development, the institute provides a vibrant learning environment supported by experienced faculty, state-of-the-art infrastructure, and strong industry collaborations."
-,
-      image: "/placeholder.svg?height=300&width=500&text=Management",
+      "Pillai Institute of Management Studies and Research (PIMSR) is a leading management institute affiliated with the University of Mumbai and approved by AICTE. It offers a dynamic curriculum focused on innovation and industry-oriented learning, supported by experienced faculty and strong industry collaborations.",
+            image: "/placeholder.svg?height=300&width=500&text=Management",
       link: "/colleges#management",
     },
   ]
@@ -66,7 +65,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 section-alternate gradient-blue-purple">
+      <section className="py-16 section-alternate gradient-color-1-2">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -173,7 +172,7 @@ export default function Home() {
       <section className="py-16 section-alternate">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold sm:text-4xl gradient-text-blue-teal">Latest News & Events</h2>
+            <h2 className="text-3xl font-bold sm:text-4xl gradient-text-color-1-4">Latest News & Events</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
               Stay updated with the latest happenings at Pillai College, from academic achievements to cultural
               celebrations.
@@ -304,7 +303,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 gradient-blue-cyan text-white">
+      <section className="py-16 gradient-color-1-3 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Join Our Community</h2>

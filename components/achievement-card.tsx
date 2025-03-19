@@ -11,7 +11,7 @@ interface AchievementCardProps {
 const AchievementCard = ({ title, description, year, icon = <Award className="h-8 w-8" /> }: AchievementCardProps) => {
   return (
     <div className="card-hover relative rounded-xl overflow-hidden">
-      <div className="gradient-blue p-4 sm:p-6">
+      <div className="gradient-color-1 p-4 sm:p-6">
         <div className="flex items-start">
           <div className="mr-3 sm:mr-4 text-white hidden sm:block">{icon}</div>
           <div>

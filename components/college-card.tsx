@@ -12,7 +12,7 @@ interface CollegeCardProps {
 const CollegeCard = ({ name, description, image, link }: CollegeCardProps) => {
   return (
     <div className="card-hover relative rounded-xl overflow-hidden h-full">
-      <div className="gradient-blue h-full flex flex-col">
+      <div className="gradient-color-1 h-full flex flex-col">
         <div className="relative h-48">
           <Image src={image || "/placeholder.svg"} alt={name} fill className="object-cover" />
         </div>

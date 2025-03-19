@@ -17,7 +17,7 @@ const HeroSection = ({
     <div className="relative">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <div className="absolute inset-0 gradient-blue opacity-90"></div>
+        <div className="absolute inset-0 gradient-color-1 opacity-90"></div>
       </div>
 
       {/* Content */}

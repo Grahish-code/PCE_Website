@@ -139,7 +139,7 @@ export default function CollegesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {colleges.map((college) => (
               <div key={college.id} className="card-hover rounded-xl overflow-hidden">
-                <div className="gradient-blue p-6 h-full flex flex-col">
+                <div className="gradient-color-1 p-6 h-full flex flex-col">
                   <div className="text-white mb-4">{college.icon}</div>
                   <h3 className="text-xl font-bold text-white mb-2">{college.name}</h3>
                   <div className="flex items-center text-blue-100 mb-4">
@@ -164,7 +164,7 @@ export default function CollegesPage() {
         <section
           key={college.id}
           id={college.id}
-          className={`py-16 ${index % 2 === 0 ? "gradient-blue-purple text-white" : "section-alternate"}`}
+          className={`py-16 ${index % 2 === 0 ? "gradient-color-1-2 text-white" : "section-alternate"}`}
         >
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -330,7 +330,7 @@ export default function CollegesPage() {
         </div>
       </section>
 
-      <section className="py-16 gradient-blue-cyan text-white">
+      <section className="py-16 gradient-color-1-3 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Ready to Join Us?</h2>

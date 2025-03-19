@@ -154,7 +154,7 @@ export default function ClubsPage() {
         </div>
       </section>
 
-      <section className="py-16 gradient-blue-purple text-white">
+      <section className="py-16 gradient-color-1-2 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -296,7 +296,7 @@ export default function ClubsPage() {
         </div>
       </section>
 
-      <section className="py-16 gradient-blue-cyan text-white">
+      <section className="py-16 gradient-color-1-3 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Start Your Own Club</h2>

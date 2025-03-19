@@ -34,24 +34,39 @@
 
     --radius: 0.5rem;
 
+    /* hsla(358.78, 59.04%, 48.82%, 1) */
+
+    --color-1: 358.78, 59.04%, 48.82%; /* Blue Light */
+
     /* Custom university theme colors */
-    --blue-light: 214 100% 70%;
-    --blue-medium: 214 100% 50%;
-    --blue-dark: 214 100% 30%;
+    --color-1-light: 358.78, 59.04%, 48.82%; /* Blue Light */
+    --color-1-medium: 3358.78, 59.04%, 48.82%; /* Blue Medium */
+    --color-1-dark: 358.78, 59.04%, 48.82%; /* Blue Dark */
+
+    --color-2: 358.78, 59.04%, 48.82%; /* Purple */
+    --color-3: 358.78, 59.04%, 48.82%; /* Cyan */
+    --color-4: 358.78, 59.04%, 48.82%; /* Teal */
+
+    /* hsla(357.48, 48.57%, 51.96%) */
+    /* hsla(192.77, 43.52%, 42.35%) */
+
+
+    /* hsla(356.2, 58.68%, 52.55%)
+    hsla(275.25, 34.78%, 45.1%) */
 
     /* Gradient colors */
-    --gradient-start: 214 100% 60%;
-    --gradient-end: 224 100% 40%;
+    --gradient-start: 358.78, 59.04%, 48.82%;
+    --gradient-end: 358.78, 59.04%, 48.82%;
 
     /* Additional gradient colors */
-    --gradient-blue-purple-start: 214 100% 60%;
-    --gradient-blue-purple-end: 260 100% 60%;
+    --gradient-color-1-2-start: 356.2, 58.68%, 52.55%;
+    --gradient-color-1-2-end: 275.25, 34.78%, 45.1%;
 
-    --gradient-blue-teal-start: 214 100% 60%;
-    --gradient-blue-teal-end: 180 100% 50%;
+    --gradient-color-1-4-start: 357.48, 48.57%, 51.96%;
+    --gradient-color-1-4-end: 192.77, 43.52%, 42.35%;
 
-    --gradient-blue-cyan-start: 214 100% 60%;
-    --gradient-blue-cyan-end: 190 100% 50%;
+    --gradient-color-1-3-start: 357.48, 48.57%, 51.96%;
+    --gradient-color-1-3-end: 192.77, 43.52%, 42.35%;
   }
 
   .dark {
@@ -84,23 +99,27 @@
     --ring: 224.3 76.3% 48%;
 
     /* Custom university theme colors */
-    --blue-light: 214 70% 60%;
-    --blue-medium: 214 70% 40%;
-    --blue-dark: 214 70% 20%;
+    --color-1-light: 214 70% 60%; /* Blue Light */
+    --color-1-medium: 214 70% 40%; /* Blue Medium */
+    --color-1-dark: 214 70% 20%; /* Blue Dark */
+
+    --color-2: 260 70% 50%; /* Purple */
+    --color-3: 190 70% 40%; /* Cyan */
+    --color-4: 180 70% 40%; /* Teal */
 
     /* Gradient colors */
     --gradient-start: 214 70% 50%;
     --gradient-end: 224 70% 30%;
 
     /* Additional gradient colors */
-    --gradient-blue-purple-start: 214 70% 50%;
-    --gradient-blue-purple-end: 260 70% 50%;
+    --gradient-color-1-2-start: 214 70% 50%;
+    --gradient-color-1-2-end: 260 70% 50%;
 
-    --gradient-blue-teal-start: 214 70% 50%;
-    --gradient-blue-teal-end: 180 70% 40%;
+    --gradient-color-1-4-start: 214 70% 50%;
+    --gradient-color-1-4-end: 180 70% 40%;
 
-    --gradient-blue-cyan-start: 214 70% 50%;
-    --gradient-blue-cyan-end: 190 70% 40%;
+    --gradient-color-1-3-start: 214 70% 50%;
+    --gradient-color-1-3-end: 190 70% 40%;
   }
 }
 
@@ -114,24 +133,24 @@
 }
 
 /* Gradient backgrounds */
-.gradient-blue {
+.gradient-color-1 {
   background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
 }
 
-.gradient-blue-reverse {
+.gradient-color-1-reverse {
   background: linear-gradient(135deg, hsl(var(--gradient-end)), hsl(var(--gradient-start)));
 }
 
-.gradient-blue-purple {
-  background: linear-gradient(135deg, hsl(var(--gradient-blue-purple-start)), hsl(var(--gradient-blue-purple-end)));
+.gradient-color-1-2 {
+  background: linear-gradient(135deg, hsl(var(--gradient-color-1-2-start)), hsl(var(--gradient-color-1-2-end)));
 }
 
-.gradient-blue-teal {
-  background: linear-gradient(135deg, hsl(var(--gradient-blue-teal-start)), hsl(var(--gradient-blue-teal-end)));
+.gradient-color-1-4 {
+  background: linear-gradient(135deg, hsl(var(--gradient-color-1-4-start)), hsl(var(--gradient-color-1-4-end)));
 }
 
-.gradient-blue-cyan {
-  background: linear-gradient(135deg, hsl(var(--gradient-blue-cyan-start)), hsl(var(--gradient-blue-cyan-end)));
+.gradient-color-1-3 {
+  background: linear-gradient(135deg, hsl(var(--gradient-color-1-3-start)), hsl(var(--gradient-color-1-3-end)));
 }
 
 .gradient-radial {
@@ -153,29 +172,34 @@
   -webkit-background-clip: text;
   color: transparent;
   background-image: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
-  /* Add text shadow for better visibility in light mode */
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.gradient-text-blue-purple {
+.gradient-text-color-1-2 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-image: linear-gradient(
     135deg,
-    hsl(var(--gradient-blue-purple-start)),
-    hsl(var(--gradient-blue-purple-end))
+    hsl(var(--gradient-color-1-2-start)),
+    hsl(var(--gradient-color-1-2-end))
   );
-  /* Add text shadow for better visibility in light mode */
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.gradient-text-blue-teal {
+.gradient-text-color-1-4 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(135deg, hsl(var(--gradient-blue-teal-start)), hsl(var(--gradient-blue-teal-end)));
-  /* Add text shadow for better visibility in light mode */
+  background-image: linear-gradient(135deg, hsl(var(--gradient-color-1-4-start)), hsl(var(--gradient-color-1-4-end)));
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text-color-1-3 {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, hsl(var(--gradient-color-1-3-start)), hsl(var(--gradient-color-1-3-end)));
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -298,10 +322,10 @@
 /* Responsive adjustments */
 @media (max-width: 640px) {
   .gradient-text,
-  .gradient-text-blue-purple,
-  .gradient-text-blue-teal {
+  .gradient-text-color-1-2,
+  .gradient-text-color-1-4,
+  .gradient-text-color-1-3 {
     background-size: 100%;
-    /* Enhance visibility in light mode on mobile */
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     font-weight: 800;
   }
@@ -314,9 +338,9 @@
 /* Light mode specific adjustments for gradient text */
 @media (prefers-color-scheme: light) {
   .gradient-text,
-  .gradient-text-blue-purple,
-  .gradient-text-blue-teal {
-    /* Darker gradient colors for better visibility in light mode */
+  .gradient-text-color-1-2,
+  .gradient-text-color-1-4,
+  .gradient-text-color-1-3 {
     background-image: linear-gradient(135deg, hsl(214, 100%, 40%), hsl(224, 100%, 30%));
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   }
@@ -324,9 +348,9 @@
 
 /* Dark mode specific adjustments for gradient text */
 .dark .gradient-text,
-.dark .gradient-text-blue-purple,
-.dark .gradient-text-blue-teal {
-  /* Brighter gradient colors for better visibility in dark mode */
+.dark .gradient-text-color-1-2,
+.dark .gradient-text-color-1-4,
+.dark .gradient-text-color-1-3 {
   background-image: linear-gradient(135deg, hsl(214, 100%, 70%), hsl(224, 100%, 60%));
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   font-weight: 700;
@@ -337,4 +361,3 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   font-weight: 800;
 }
-
