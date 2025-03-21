@@ -13,7 +13,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 221.2 83.2% 53.3%;
+    --primary: 0, 0%, 0%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -34,26 +34,17 @@
 
     --radius: 0.5rem;
 
-    /* hsla(358.78, 59.04%, 48.82%, 1) */
-
-    --color-1: 358.78, 59.04%, 48.82%; /* Blue Light */
+    /* Custom colors */
+    --heading-color: 358.78, 59.04%, 48.82%; /* Red color for headings */
 
     /* Custom university theme colors */
     --color-1-light: 358.78, 59.04%, 48.82%; /* Blue Light */
-    --color-1-medium: 3358.78, 59.04%, 48.82%; /* Blue Medium */
+    --color-1-medium: 358.78, 59.04%, 48.82%; /* Blue Medium */
     --color-1-dark: 358.78, 59.04%, 48.82%; /* Blue Dark */
 
     --color-2: 358.78, 59.04%, 48.82%; /* Purple */
     --color-3: 358.78, 59.04%, 48.82%; /* Cyan */
     --color-4: 358.78, 59.04%, 48.82%; /* Teal */
-
-    /* hsla(357.48, 48.57%, 51.96%) */
-    /* hsla(192.77, 43.52%, 42.35%) */
-
-
-    /* hsla(356.2, 58.68%, 52.55%)
-
-    hsla(275.25, 34.78%, 45.1%) */
 
     /* Gradient colors */
     --gradient-start: 358.78, 59.04%, 48.82%;
@@ -71,57 +62,57 @@
   }
 
   .dark {
-    --background: 240, 3.7%, 15.88%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary:  240, 3.7%, 15.88%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 224.3 76.3% 48%;
-
-
-    --color-1: 358.78, 59.04%, 48.82%;
-
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 0% 100%; /* White */
+  
+    --card: 0 0% 0%; /* Black */
+    --card-foreground: 0 0% 100%; /* White */
+  
+    --popover: 0 0% 0%; /* Black */
+    --popover-foreground: 0 0% 100%; /* White */
+  
+    --primary: 0 0% 100%; /* Keep primary color as is */
+    --primary-foreground: 0 0% 0%; /* White */
+  
+    --secondary: 0 0% 10%; /* Near-black */
+    --secondary-foreground: 0 0% 100%; /* White */
+  
+    --muted: 0 0% 15%; /* Near-black */
+    --muted-foreground: 0 0% 70%; /* Light gray for muted text */
+  
+    --accent: 0 0% 10%; /* Near-black */
+    --accent-foreground: 0 0% 100%; /* White */
+  
+    --destructive: 0 62.8% 30.6%; /* Keep destructive color as is */
+    --destructive-foreground: 0 0% 100%; /* White */
+  
+    --border: 0 0% 20%; /* Near-black */
+    --input: 0 0% 20%; /* Near-black */
+    --ring: 224.3 76.3% 48%; /* Keep ring color as is */
+  
+    /* Custom colors */
+    --heading-color: 358.78, 59.04%, 48.82%; /* Red color for headings */
+  
     /* Custom university theme colors */
-    --color-1-light: 214 70% 60%; /* Blue Light */
-    --color-1-medium: 214 70% 40%; /* Blue Medium */
-    --color-1-dark: 214 70% 20%; /* Blue Dark */
-
-    --color-2: 260 70% 50%; /* Purple */
-    --color-3: 190 70% 40%; /* Cyan */
-    --color-4: 180 70% 40%; /* Teal */
-
+    --color-1-light: 358.78, 59.04%, 48.82%; /* Blue Light */
+    --color-1-medium: 358.78, 59.04%, 48.82%; /* Blue Medium */
+    --color-1-dark: 358.78, 59.04%, 48.82%; /* Blue Dark */
+  
+    --color-2: 358.78, 59.04%, 48.82%; /* Purple */
+    --color-3: 358.78, 59.04%, 48.82%; /* Cyan */
+    --color-4: 358.78, 59.04%, 48.82%; /* Teal */
+  
     /* Gradient colors */
     --gradient-start: 358.78, 59.04%, 48.82%;
     --gradient-end: 358.78, 59.04%, 48.82%;
-
+  
     /* Additional gradient colors */
     --gradient-color-1-2-start: 356.2, 58.68%, 52.55%;
     --gradient-color-1-2-end: 275.25, 34.78%, 45.1%;
-
+  
     --gradient-color-1-4-start: 357.48, 48.57%, 51.96%;
     --gradient-color-1-4-end: 192.77, 43.52%, 42.35%;
-
+  
     --gradient-color-1-3-start: 357.48, 48.57%, 51.96%;
     --gradient-color-1-3-end: 192.77, 43.52%, 42.35%;
   }
@@ -133,6 +124,11 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Apply red color to headings in both light and dark themes */
+  h1, h2, h3, h4, h5, h6 {
+    color: hsl(var(--heading-color));
   }
 }
 
@@ -355,7 +351,7 @@
 .dark .gradient-text-color-1-2,
 .dark .gradient-text-color-1-4,
 .dark .gradient-text-color-1-3 {
-  background-image: linear-gradient(135deg, hsl(214, 100%, 70%), hsl(224, 100%, 60%));
+  background-image: linear-gradient(135deg, hsl(356.2, 58.68%, 52.55%), hsl(275.25, 34.78%, 45.1%));
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   font-weight: 700;
 }

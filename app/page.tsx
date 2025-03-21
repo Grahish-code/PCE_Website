@@ -17,14 +17,14 @@ export default function Home() {
     {
       name: "Pillai College of Arts, Commerce and Science (Autonomous)",
       description:
-        "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs, affiliated with the University of Mumbai. It provides a dynamic learning environment with modern facilities and industry collaborations, accredited with an 'A' grade by NAAC",
+        "Pillai College of Arts, Commerce & Science (PCACS) is a renowned institution offering diverse undergraduate and postgraduate programs, affiliated with the University of Mumbai. It provides a dynamic learning environment with modern facilities and industry collaborations, accblueited with an 'A' grade by NAAC",
       image: "/placeholder.svg?height=300&width=500&text=Arts+Commerce+Science",
       link: "/colleges#arts",
     },
     {
       name: "Pillai College of Engineering (Autonomous)",
       description:
-        "Pillai College of Engineering (PCE), established in 1999, is a distinguished engineering college accredited with an A+ grade by NAAC and affiliated with the University of Mumbai. It gained autonomous status from UGC in 2021, enhancing its academic excellence and innovation in engineering education",
+        "Pillai College of Engineering (PCE), established in 1999, is a distinguished engineering college accblueited with an A+ grade by NAAC and affiliated with the University of Mumbai. It gained autonomous status from UGC in 2021, enhancing its academic excellence and innovation in engineering education",
       image: "/placeholder.svg?height=300&width=500&text=Engineering",
       link: "/colleges#engineering",
     },
@@ -42,10 +42,7 @@ export default function Home() {
       <HeroCarousel />
 
       <section className="py-16 section-alternate">
-        <div
-          className="container mx-auto px-4 sm:px-6 lg:px-8"
-          style={{ backgroundColor: "hsl(240, 3.7%, 15.88%)" }}
-        >
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text">
               Our Colleges
@@ -181,7 +178,7 @@ export default function Home() {
               <div className="mt-8">
                 <Button
                   asChild
-                  className="bg-white text-blue-700 hover:bg-blue-50"
+                  className="bg-white text-black hover:bg-blue-50"
                 >
                   <Link href="/about">
                     Learn More About Us <ArrowRight className="ml-2 h-4 w-4" />
@@ -299,7 +296,7 @@ export default function Home() {
                 year: "2020",
                 achievement: "Software Engineer at Google",
                 testimonial:
-                  "The practical approach to learning at Pillai College of Engineering prepared me for real-world challenges in the tech industry.",
+                  "The practical approach to learning at Pillai College of Engineering prepablue me for real-world challenges in the tech industry.",
                 image: "/placeholder.svg?height=300&width=300&text=Student+1",
               },
               {
@@ -373,7 +370,7 @@ export default function Home() {
             <Button
               asChild
               size="lg"
-              className="bg-white text-blue-700 hover:bg-blue-50"
+              className="bg-white text-black hover:bg-blue-50"
             >
               <Link href="/admissions">Apply Now</Link>
             </Button>
