@@ -10,7 +10,7 @@ interface HeroSectionProps {
 const HeroSection = ({
   title,
   subtitle,
-  backgroundImage = "/placeholder.svg?height=600&width=1600",
+  backgroundImage = "/Group_10.png?height=600&width=1600",
   children,
 }: HeroSectionProps) => {
   return (
