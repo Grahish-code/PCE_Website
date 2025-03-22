@@ -159,7 +159,7 @@ const HeroCarousel = () => {
                   priority={index === 0}
                 />
               )}
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-600/50"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-red-900/80 to-red-600/50"></div>
 
               {!isPlaying && currentSlide === index && (
                 <button
@@ -173,31 +173,36 @@ const HeroCarousel = () => {
             </div>
           ) : slide.type === "card" ? (
             <div className="absolute inset-0">
-              <Image
-                src={slide.image || "/placeholder.svg"}
-                alt={slide.title}
-                fill
-                className="object-cover"
-                priority={index === 0}
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-600/70"></div>
+  <Image
+    src={slide.image || "/placeholder.svg"}
+    alt={slide.title}
+    fill
+    className="object-cover"
+    priority={index === 0}
+  />
+  <div className="absolute inset-0 bg-gradient-to-r from-red-900/90 to-red-600/70"></div>
 
-              {/* Card Content */}
-              <div className="absolute inset-0 flex items-center justify-center z-20 px-4">
-                <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 md:p-8 max-w-3xl w-full border border-white/20">
-                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">{slide.cardContent?.title}</h3>
-                  <p className="text-blue-100 mb-6">{slide.cardContent?.description}</p>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {slide.cardContent?.stats?.map((stat, idx) => (
-                      <div key={idx} className="text-center">
-                        <div className="text-3xl md:text-4xl font-bold text-white">{stat.value}</div>
-                        <div className="text-sm text-blue-200">{stat.label}</div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
+  {/* Card Content */}
+  <div className="absolute inset-0 flex items-center justify-center z-20 px-4">
+    <div className="bg-white/10 backdrop-blur-md rounded-xl p-8 max-w-3xl w-full border border-white/20">
+      {/* Title */}
+      <h3 className="text-3xl font-bold text-white ml-20 mb-4">{slide.cardContent?.title}</h3>
+      {/* Description */}
+      <p className="text-blue-100 mb-8 text-lg ">{slide.cardContent?.description}</p>
+      {/* Stats Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {slide.cardContent?.stats?.map((stat, idx) => (
+          <div key={idx} className="text-center">
+            {/* Stat Value */}
+            <div className="text-4xl font-bold text-white mb-2">{stat.value}</div>
+            {/* Stat Label */}
+            <div className="text-sm text-blue-200 uppercase tracking-wider">{stat.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
           ) : (
             <div className="absolute inset-0">
               <Image
@@ -207,7 +212,7 @@ const HeroCarousel = () => {
                 className="object-cover"
                 priority={index === 0}
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-600/50"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-red-900/80 to-red-600/50"></div>
             </div>
           )}
 
@@ -221,7 +226,7 @@ const HeroCarousel = () => {
                 <p className="mt-4 md:mt-6 text-lg md:text-xl text-blue-100 max-w-3xl">{slide.subtitle}</p>
                 {slide.type !== "card" && (
                   <div className="mt-6 md:mt-8 flex flex-wrap gap-4">
-                    <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
+                    <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
                       <Link href="/admissions">Apply Now</Link>
                     </Button>
                     <Button

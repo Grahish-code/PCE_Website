@@ -126,9 +126,25 @@
     @apply bg-background text-foreground;
   }
 
-  /* Apply red color to headings in both light and dark themes */
+  :root {
+    --heading-color: hsl(0, 100%, 50%); /* Red color */
+    --default-text-color: hsl(0, 0%, 100%); /* White color */
+  }
+  
   h1, h2, h3, h4, h5, h6 {
-    color: hsl(var(--heading-color));
+    color: var(--default-text-color); /* Default color (white) */
+    
+  }
+  
+  /* If the background matches --background-color, use --heading-color (red) */
+  h1[style*="--background-color"],
+  h2[style*="--background-color"],
+  h3[style*="--background-color"],
+  h4[style*="--background-color"],
+  h5[style*="--background-color"],
+  h6[style*="--background-color"] {
+    color: var(--heading-color); /* Red color */
+    mix-blend-mode: normal; /* Disable blend mode for black background */
   }
 }
 

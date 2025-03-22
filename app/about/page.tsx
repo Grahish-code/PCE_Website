@@ -282,7 +282,7 @@ export default function AboutPage() {
                 impact on society.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
+                <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
                   <Link href="/admissions">Apply Now</Link>
                 </Button>
                 <Button

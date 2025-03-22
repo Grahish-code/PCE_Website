@@ -237,7 +237,7 @@ export default function PlacementOverviewPage() {
               <p className="text-blue-100 mb-4">
                 Check out our video featuring placement success stories and campus recruitment drives.
               </p>
-              <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+              <Button asChild className="bg-white text-black hover:bg-blue-50">
                 <Link href="#">Watch Video</Link>
               </Button>
             </div>

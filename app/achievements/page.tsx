@@ -478,7 +478,7 @@ export default function AchievementsPage() {
                     <p className="text-blue-200">{faculty.department}</p>
                   </div>
                   <div className="text-center">
-                    <div className="inline-block px-2 py-1 rounded-full bg-blue-800 text-xs font-medium text-white mb-2">
+                    <div className="inline-block px-2 py-1 rounded-full bg-black text-xs font-medium text-white mb-2">
                       {faculty.year}
                     </div>
                     <p className="text-blue-100">{faculty.achievement}</p>

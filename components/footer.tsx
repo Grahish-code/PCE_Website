@@ -120,7 +120,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-blue-400 mt-8 pt-8 text-center">
+        <div className="border-t border-black mt-8 pt-8 text-center">
           <p>&copy; {new Date().getFullYear()} Pillai University. All rights reserved.</p>
         </div>
       </div>

@@ -204,7 +204,7 @@ export default function AdmissionsPage() {
               Note: Reservation policies as per government norms are applicable. Relaxation in eligibility criteria may
               be provided to candidates from reserved categories as per the prevailing rules.
             </p>
-            <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+            <Button asChild className="bg-white text-black hover:bg-blue-50">
               <Link href="/contact">Contact Admissions Office</Link>
             </Button>
           </div>
@@ -365,7 +365,7 @@ export default function AdmissionsPage() {
               In addition to the above scholarships, we also facilitate various government scholarships and education
               loans through our partner banks.
             </p>
-            <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+            <Button asChild className="bg-white text-black hover:bg-blue-50">
               <Link href="/scholarships">Learn More About Scholarships</Link>
             </Button>
           </div>
@@ -439,7 +439,7 @@ export default function AdmissionsPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-white dark:bg-gray-900">
+      <section className="py-16" style={{ backgroundColor: "hsla(0, 0%, 10.2%, 1)" }}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text mb-6">Need Help?</h2>

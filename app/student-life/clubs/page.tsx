@@ -304,7 +304,7 @@ export default function ClubsPage() {
               Have a unique interest not represented by existing clubs? You can start your own club at Pillai
               University!
             </p>
-            <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
+            <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
               <Link href="/student-life/clubs#start-club">Learn How to Start a Club</Link>
             </Button>
           </div>

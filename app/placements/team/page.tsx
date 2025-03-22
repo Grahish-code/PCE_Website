@@ -313,7 +313,7 @@ export default function PlacementTeamPage() {
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-black"
                     placeholder="Your Name"
                   />
                 </div>
@@ -325,7 +325,7 @@ export default function PlacementTeamPage() {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-black"
                     placeholder="Your Email"
                   />
                 </div>
@@ -337,7 +337,7 @@ export default function PlacementTeamPage() {
                     type="text"
                     id="subject"
                     name="subject"
-                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-black"
                     placeholder="Subject of your message"
                   />
                 </div>
@@ -349,11 +349,11 @@ export default function PlacementTeamPage() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="w-full rounded-md border border-blue-300/30 bg-white/10 px-3 py-2 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-black"
                     placeholder="Your message"
                   ></textarea>
                 </div>
-                <Button className="w-full bg-white text-blue-700 hover:bg-blue-50">Send Message</Button>
+                <Button className="w-full bg-white text-black hover:bg-blue-50">Send Message</Button>
               </form>
             </div>
           </div>

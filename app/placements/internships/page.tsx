@@ -182,7 +182,7 @@ export default function PlacementInternshipsPage() {
                 </div>
               </div>
               <div className="mt-8">
-                <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+                <Button asChild className="bg-white text-black hover:bg-blue-50">
                   <Link href="/placements/overview#statistics">View Detailed Statistics</Link>
                 </Button>
               </div>
@@ -270,7 +270,7 @@ export default function PlacementInternshipsPage() {
           </div>
 
           <div className="mt-12 text-center">
-            <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+            <Button asChild className="bg-white text-black hover:bg-blue-50">
               <Link href="/placements/overview#recruiters">View All Recruiters</Link>
             </Button>
           </div>

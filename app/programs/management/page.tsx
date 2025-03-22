@@ -264,7 +264,7 @@ export default function ManagementPage() {
                 </div>
               </div>
               <div className="mt-8">
-                <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+                <Button asChild className="bg-white text-black hover:bg-blue-50">
                   <Link href="/placements">Explore Placement Opportunities</Link>
                 </Button>
               </div>

@@ -222,7 +222,7 @@ export default function SportsPage() {
                 </div>
               </div>
               <div className="mt-8">
-                <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+                <Button asChild className="bg-white text-black hover:bg-blue-50">
                   <Link href="/student-life/sports#excellence-program">Join the Program</Link>
                 </Button>
               </div>
@@ -293,7 +293,7 @@ export default function SportsPage() {
                   <div>
                     <div className="flex items-center mb-2">
                       <h3 className="text-xl font-bold text-white mr-3">{achievement.title}</h3>
-                      <span className="bg-blue-800 text-blue-100 text-xs font-medium px-2.5 py-0.5 rounded">
+                      <span className="bg-black text-blue-100 text-xs font-medium px-2.5 py-0.5 rounded">
                         {achievement.year}
                       </span>
                     </div>
@@ -306,7 +306,7 @@ export default function SportsPage() {
           </div>
 
           <div className="mt-12 text-center">
-            <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+            <Button asChild className="bg-white text-black hover:bg-blue-50">
               <Link href="/achievements#sports">View All Sports Achievements</Link>
             </Button>
           </div>
@@ -393,7 +393,7 @@ export default function SportsPage() {
                   <h3 className="font-semibold text-white">Swimming Team</h3>
                 </div>
               </div>
-              <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+              <Button asChild className="bg-white text-black hover:bg-blue-50">
                 <Link href="/student-life/sports#join-teams">Join a Team</Link>
               </Button>
             </div>
