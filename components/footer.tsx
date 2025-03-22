@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "luc
 
 const Footer = () => {
   return (
-    <footer className="gradient-color-1 text-white">
+    <footer className="gradient-color-1-4 text-white">
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -120,9 +120,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-black mt-8 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Pillai University. All rights reserved.</p>
-        </div>
+        <div className="border-t-8 border-golden-light mt-8 pt-8 text-center">
+  <p>&copy; {new Date().getFullYear()} Pillai University. All rights reserved.</p>
+</div>
       </div>
     </footer>
   )

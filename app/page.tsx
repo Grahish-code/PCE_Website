@@ -84,7 +84,7 @@ export default function Home() {
                     <h3 className="font-semibold text-lg text-white">
                       Academic Excellence
                     </h3>
-                    <p className="text-blue-100">
+                    <p className="text-white">
                       Rigorous programs designed to foster knowledge,
                       innovation, and critical thinking.
                     </p>
@@ -98,7 +98,7 @@ export default function Home() {
                     <h3 className="font-semibold text-lg text-white">
                       Cutting-Edge Infrastructure:
                     </h3>
-                    <p className="text-blue-100">
+                    <p className="text-white">
                       Modern labs, digital resources, and collaborative learning
                       spaces.
                     </p>
@@ -112,7 +112,7 @@ export default function Home() {
                     <h3 className="font-semibold text-lg text-white">
                       Industry Connections
                     </h3>
-                    <p className="text-blue-100">
+                    <p className="text-white">
                       Strong collaborations with top companies for internships
                       and placements.
                     </p>
@@ -126,7 +126,7 @@ export default function Home() {
                     <h3 className="font-semibold text-lg text-white">
                       Global Perspective:{" "}
                     </h3>
-                    <p className="text-blue-100">
+                    <p className="text-white">
                       Opportunities for international exchange, research, and
                       networking.
                     </p>
@@ -140,7 +140,7 @@ export default function Home() {
                     <h3 className="font-semibold text-lg text-white">
                       Holistic Development:{" "}
                     </h3>
-                    <p className="text-blue-100">
+                    <p className="text-white">
                       Focus on leadership, ethics, and personal growth beyond
                       academics.
                     </p>
@@ -154,7 +154,7 @@ export default function Home() {
                     <h3 className="font-semibold text-lg text-white">
                       Vibrant Campus Life:{" "}
                     </h3>
-                    <p className="text-blue-100">
+                    <p className="text-white">
                       A diverse and inclusive environment with extracurricular
                       and cultural activities.
                     </p>
@@ -168,7 +168,7 @@ export default function Home() {
                     <h3 className="font-semibold text-lg text-white">
                       Strong Alumni Network:
                     </h3>
-                    <p className="text-blue-100">
+                    <p className="text-white">
                       A community of successful professionals supporting career
                       growth.
                     </p>
@@ -252,8 +252,8 @@ export default function Home() {
                     <div className="text-sm text-muted-foreground mb-2">
                       {item.date}
                     </div>
-                    <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                    <p className="text-muted-foreground mb-4">
+                    <h3 className="text-xl text-primary font-bold mb-2">{item.title}</h3>
+                    <p className="text-primary mb-4">
                       {item.description}
                     </p>
                     <Link
@@ -276,13 +276,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 section-alternate">
+      <section className="py-16  gradient-color-1-3 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold sm:text-4xl gradient-text">
+            <h2 className="text-3xl font-bold sm:text-4xl text-white">
               Student Success Stories
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="mt-4 text-lg text-White max-w-3xl mx-auto">
               Our graduates are making a difference in various fields around the
               world. Here are some of their inspiring journeys.
             </p>
@@ -354,13 +354,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 gradient-color-1-3 text-white">
+      <section className="py-16 section-alternate  ">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold sm:text-4xl">
+            <h2 className="text-3xl font-bold sm:text-4xl text-primary">
               Join Our Community
             </h2>
-            <p className="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
+            <p className="mt-4 text-lg text-primary max-w-3xl mx-auto">
               Take the first step towards a bright future with Pillai College.
               Applications for the 2024-25 academic year are now open.
             </p>
@@ -369,6 +369,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-4">
             <Button
               asChild
+               variant="outline"
               size="lg"
               className="bg-white text-black hover:bg-blue-50"
             >
@@ -378,7 +379,7 @@ export default function Home() {
               asChild
               variant="outline"
               size="lg"
-              className="bg-transparent text-white border-white hover:bg-white/10"
+              className="bg-white text-black hover:bg-blue-50"
             >
               <Link href="/contact">Contact Us</Link>
             </Button>
@@ -386,7 +387,7 @@ export default function Home() {
               asChild
               variant="outline"
               size="lg"
-              className="bg-transparent text-white border-white hover:bg-white/10"
+              className="bg-white text-black hover:bg-blue-50"
             >
               <Link href="/campus-tour">Schedule a Visit</Link>
             </Button>
