@@ -27,14 +27,14 @@ const HeroCarousel = () => {
   const slides: Slide[] = [
     {
       type: "image",
-      image: "/placeholder.svg?height=800&width=1600&text=Campus+Life",
+      image: "/Group_4.png?height=900&width=1700&text=Campus+Life",
       title: "Shaping Tomorrow's Leaders",
       subtitle:
         "Pillai University offers world-class education across architecture, arts, engineering, and management disciplines.",
     },
     {
       type: "card",
-      image: "/placeholder.svg?height=800&width=1600&text=Statistics",
+      image: "/Group_4.png?height=900&width=1700&text=Statistics",
       title: "Excellence in Numbers",
       subtitle: "Our achievements speak for themselves",
       cardContent: {
@@ -50,20 +50,20 @@ const HeroCarousel = () => {
     },
     {
       type: "video",
-      image: "/placeholder.svg?height=800&width=1600&text=Campus+Tour+Video",
+      image: "/Group_4.png?height=900&width=1700&text=Campus+Tour+Video",
       videoUrl: "https://example.com/video.mp4", // This is a placeholder URL
       title: "Experience Our Vibrant Campus",
       subtitle: "Take a virtual tour of our beautiful campus and see what makes Pillai University special.",
     },
     {
       type: "image",
-      image: "/placeholder.svg?height=800&width=1600&text=Engineering+Labs",
+      image: "/Group_4.png?height=800&width=1600&text=Engineering+Labs",
       title: "Cutting-Edge Research Facilities",
       subtitle: "Our state-of-the-art laboratories and research centers foster innovation and practical learning.",
     },
     {
       type: "card",
-      image: "/placeholder.svg?height=800&width=1600&text=Achievements",
+      image: "/Group_4.png?height=900&width=1700&text=Achievements",
       title: "Recognized Excellence",
       subtitle: "Accreditations and rankings that set us apart",
       cardContent: {
@@ -80,7 +80,7 @@ const HeroCarousel = () => {
     },
     {
       type: "video",
-      image: "/placeholder.svg?height=800&width=1600&text=Student+Testimonials",
+      image: "/Group_4.png?height=900&width=1700&text=Student+Testimonials",
       videoUrl: "https://example.com/testimonials.mp4", // This is a placeholder URL
       title: "Student Success Stories",
       subtitle: "Hear directly from our students about their transformative journey at Pillai University.",
