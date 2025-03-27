@@ -117,6 +117,27 @@
    --gradient-color-1-3-end: 359, 100%, 58%;
   }
 }
+/* Gradient background definitions */
+.gradient-color-1-2 {
+  background: linear-gradient(135deg, hsl(var(--gradient-color-1-2-start)), hsl(var(--gradient-color-1-2-end)));
+}
+
+.gradient-color-1-3 {
+  background: linear-gradient(135deg, hsl(var(--gradient-color-1-3-start)), hsl(var(--gradient-color-1-3-end)));
+}
+
+.gradient-color-1-4 {
+  background: linear-gradient(135deg, hsl(var(--gradient-color-1-4-start)), hsl(var(--gradient-color-1-4-end)));
+}
+
+/* Gradient text definition */
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
 
 @layer base {
   * {
@@ -127,31 +148,48 @@
   }
 
   :root {
-    --heading-color: hsl(0, 100%, 50%); /* Red color */
-    --default-text-color: hsl(0, 0%, 100%); /* White color */
+    --heading-color: hsl(0, 0%, 0%); /* Black */
   }
-  .dark{
-    --heading-color: hsl(0, 100%, 50%); /* Red color */
-    --default-text-color: hsl(0, 0%, 100%); 
+  .dark {
+    --heading-color: hsl(0, 0%, 100%); /* White */
   }
   
+  /* Default: All headings get gradient text */
   h1, h2, h3, h4, h5, h6 {
-    color: var(--default-text-color); /* Default color (white) */
-    
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
   
-  /* If the background matches --background-color, use --heading-color (red) */
-  h1[style*="--background-color"],
-  h2[style*="--background-color"],
-  h3[style*="--background-color"],
-  h4[style*="--background-color"],
-  h5[style*="--background-color"],
-  h6[style*="--background-color"] {
-    color: var(--heading-color); /* Red color */
-    mix-blend-mode: normal; /* Disable blend mode for black background */
+  /* Override: Headings inside .gradient-color-1-2, .gradient-color-1-3, or .gradient-color-1-4 become white */
+  .gradient-color-1-2 h1,
+  .gradient-color-1-2 h2,
+  .gradient-color-1-2 h3,
+  .gradient-color-1-2 h4,
+  .gradient-color-1-2 h5,
+  .gradient-color-1-2 h6,
+  .gradient-color-1-3 h1,
+  .gradient-color-1-3 h2,
+  .gradient-color-1-3 h3,
+  .gradient-color-1-3 h4,
+  .gradient-color-1-3 h5,
+  .gradient-color-1-3 h6,
+  .gradient-color-1-4 h1,
+  .gradient-color-1-4 h2,
+  .gradient-color-1-4 h3,
+  .gradient-color-1-4 h4,
+  .gradient-color-1-4 h5,
+  .gradient-color-1-4 h6 {
+    background-image: none; /* Remove gradient */
+    background-clip: initial; /* Reset clipping */
+    -webkit-background-clip: initial;
+    color: #ffffff; /* White color */
+    text-shadow: none; /* Remove shadow for clean white text */
+    mix-blend-mode: normal; /* Ensure proper rendering */
   }
 }
-
 /* Gradient backgrounds */
 .gradient-color-1 {
   background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
@@ -161,17 +199,8 @@
   background: linear-gradient(135deg, hsl(var(--gradient-end)), hsl(var(--gradient-start)));
 }
 
-.gradient-color-1-2 {
-  background: linear-gradient(135deg, hsl(var(--gradient-color-1-2-start)), hsl(var(--gradient-color-1-2-end)));
-}
 
-.gradient-color-1-4 {
-  background: linear-gradient(135deg, hsl(var(--gradient-color-1-4-start)), hsl(var(--gradient-color-1-4-end)));
-}
 
-.gradient-color-1-3 {
-  background: linear-gradient(135deg, hsl(var(--gradient-color-1-3-start)), hsl(var(--gradient-color-1-3-end)));
-}
 
 .gradient-radial {
   background: radial-gradient(circle at center, hsl(var(--gradient-start)), hsl(var(--gradient-end)));

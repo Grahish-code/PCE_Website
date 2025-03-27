@@ -295,11 +295,11 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="py-16 gradient-color-1-3 text-white">
+      <section className="py-16 section-alternate text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6">Connect With Us on Social Media</h2>
-            <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
               Stay updated with the latest news, events, and happenings at Pillai University by following us on social
               media.
             </p>

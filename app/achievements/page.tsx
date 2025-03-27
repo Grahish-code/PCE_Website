@@ -401,11 +401,11 @@ export default function AchievementsPage() {
         </div>
       </section>
 
-      <section id="students" className="py-16 section-alternate">
+      <section id="students" className="py-16 gradient-color-1-2">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Student Achievements</h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold sm:text-4xl text-white">Student Achievements</h2>
+            <p className="mt-4 text-lg text-white max-w-3xl mx-auto">
               Our students excel in academics, sports, cultural activities, and more.
             </p>
           </div>
@@ -421,7 +421,18 @@ export default function AchievementsPage() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                  <h3
+  className="text-xl font-bold mb-2"
+  style={{
+    backgroundImage: `linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)))`,
+    WebkitBackgroundClip: "text",
+    backgroundClip: "text",
+    color: "transparent",
+    textShadow: "0 1px 1px rgba(0, 0, 0, 0.1)"
+  }}
+>
+  {item.title}
+</h3>
                     <p className="text-muted-foreground mb-4">{item.description}</p>
                     <div className="mb-4">
                       <h4 className="font-semibold text-sm mb-1">Student Team:</h4>
@@ -451,11 +462,11 @@ export default function AchievementsPage() {
         </div>
       </section>
 
-      <section id="faculty" className="py-16 gradient-color-1-3 text-white">
+      <section id="faculty" className="py-16 section-alternate text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Faculty Achievements</h2>
-            <p className="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
+            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
               Our distinguished faculty members are recognized nationally and internationally for their contributions to
               academia and research.
             </p>
@@ -474,14 +485,14 @@ export default function AchievementsPage() {
                         className="object-cover"
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-white">{faculty.name}</h3>
-                    <p className="text-blue-200">{faculty.department}</p>
+                    <h3 className="text-xl font-bold text-gradient">{faculty.name}</h3>
+                    <p className="text-muted-foreground">{faculty.department}</p>
                   </div>
                   <div className="text-center">
                     <div className="inline-block px-2 py-1 rounded-full bg-black text-xs font-medium text-white mb-2">
                       {faculty.year}
                     </div>
-                    <p className="text-blue-100">{faculty.achievement}</p>
+                    <p className="text-muted-foreground">{faculty.achievement}</p>
                   </div>
                 </div>
               </div>
@@ -490,11 +501,11 @@ export default function AchievementsPage() {
         </div>
       </section>
 
-      <section className="py-16 section-alternate">
+      <section className="py-16 gradient-color-1-2">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Rankings & Accreditations</h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold sm:text-4xl text-white">Rankings & Accreditations</h2>
+            <p className="mt-4 text-lg text-white max-w-3xl mx-auto">
               Pillai University is proud to be recognized by various national and international accreditation bodies.
             </p>
           </div>
@@ -533,29 +544,29 @@ export default function AchievementsPage() {
                   />
                 </div>
                 <h3 className="text-lg font-bold mb-1">{item.name}</h3>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
+                <p className="text-sm text-white">{item.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-16 gradient-color-1 text-white">
+      <section className="py-16 section-alternate text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6">Join Our Legacy of Excellence</h2>
-            <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
               Become part of an institution committed to academic excellence, innovation, and holistic development.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
+              <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
                 <Link href="/admissions">Apply Now</Link>
               </Button>
               <Button
                 asChild
                 variant="outline"
                 size="lg"
-                className="bg-transparent text-white border-white hover:bg-white/10"
+                className="bg-transparent text-muted-foreground border-white hover:bg-white/10"
               >
                 <Link href="/contact">Contact Us</Link>
               </Button>

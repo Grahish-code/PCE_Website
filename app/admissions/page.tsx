@@ -439,7 +439,7 @@ export default function AdmissionsPage() {
         </div>
       </section>
 
-      <section className="py-16" style={{ backgroundColor: "hsla(0, 0%, 10.2%, 1)" }}>
+      <section className="py-16" >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text mb-6">Need Help?</h2>

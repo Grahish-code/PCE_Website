@@ -366,7 +366,7 @@ export default function SportsPage() {
         </div>
       </section>
 
-      <section className="py-16 gradient-color-1 text-white">
+      <section className="py-16 gradient-color-1-2 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>

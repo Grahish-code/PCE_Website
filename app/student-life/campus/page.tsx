@@ -198,7 +198,7 @@ export default function CampusFacilitiesPage() {
                   ))}
                 </ul>
                 {index % 2 === 0 ? (
-                  <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+                  <Button asChild className="bg-white text-black hover:bg-blue-50">
                     <Link href="/contact">Contact for More Information</Link>
                   </Button>
                 ) : (
@@ -266,7 +266,7 @@ export default function CampusFacilitiesPage() {
                   ))}
                 </ul>
                 {index % 2 === 0 ? (
-                  <Button asChild className="bg-white text-blue-700 hover:bg-blue-50">
+                  <Button asChild className="bg-white text-black hover:bg-blue-50">
                     <Link href="/contact">Contact for More Information</Link>
                   </Button>
                 ) : (
@@ -285,11 +285,11 @@ export default function CampusFacilitiesPage() {
         </section>
       ))}
 
-      <section className="py-16 gradient-color-1 text-white">
+      <section className="py-16 section-alternate text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Campus Map</h2>
-            <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
               Explore our campus virtually with our interactive campus map.
             </p>
             <div className="relative h-[500px] rounded-xl overflow-hidden card-hover max-w-5xl mx-auto">
@@ -301,7 +301,7 @@ export default function CampusFacilitiesPage() {
               />
             </div>
             <div className="mt-8">
-              <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
+              <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
                 <Link href="/campus-tour">Schedule a Campus Tour</Link>
               </Button>
             </div>

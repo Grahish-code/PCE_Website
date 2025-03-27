@@ -33,11 +33,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16 section-alternate">
+      <section className="py-16 section-alternate gradient-color-1-2">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Our Vision & Mission</h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="mt-4 text-lg text-white max-w-3xl mx-auto">
               Guiding principles that drive our commitment to excellence in education.
             </p>
           </div>
@@ -149,11 +149,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16 section-alternate">
+      <section className="py-16 section-alternate gradient-color-1-2">
   <div className="container mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-12">
       <h2 className="text-3xl font-bold sm:text-4xl">Leadership</h2>
-      <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+      <p className="mt-4 text-lg text-white max-w-3xl mx-auto">
         Meet the visionaries guiding Pillai University towards excellence.
       </p>
     </div>
@@ -272,12 +272,12 @@ export default function AboutPage() {
 </section>
 
 
-      <section className="py-16 gradient-color-1 text-white">
+      <section className="py-16 sec section-alternate text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold sm:text-4xl mb-6">Join Our Community</h2>
-              <p className="text-blue-100 mb-6">
+              <p className="text-muted-foreground mb-4">
                 Become part of a vibrant academic community dedicated to excellence, innovation, and making a positive
                 impact on society.
               </p>

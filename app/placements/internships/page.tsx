@@ -347,23 +347,23 @@ export default function PlacementInternshipsPage() {
         </div>
       </section>
 
-      <section className="py-16 gradient-color-1 text-white">
+      <section className="py-16  text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Ready to Launch Your Career?</h2>
-            <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
               Join Pillai University and take advantage of our comprehensive placement and internship support to
               kickstart your career.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
+              <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
                 <Link href="/admissions">Apply Now</Link>
               </Button>
               <Button
                 asChild
                 variant="outline"
                 size="lg"
-                className="bg-transparent text-white border-white hover:bg-white/10"
+                className="bg-transparent text-muted-foreground border-white hover:bg-white/10"
               >
                 <Link href="/placements/team">Contact Placement Cell</Link>
               </Button>

@@ -417,15 +417,15 @@ export default function PlacementTeamPage() {
         </div>
       </section>
 
-      <section className="py-16 gradient-color-1 text-white">
+      <section className="py-16 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Schedule a Meeting</h2>
-            <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
               Interested in learning more about our placement services or discussing recruitment opportunities? Schedule
               a meeting with our placement team.
             </p>
-            <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
+            <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
               <Link href="/placements/team#contact">Schedule a Meeting</Link>
             </Button>
           </div>
