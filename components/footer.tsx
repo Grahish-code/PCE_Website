@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <h3 className="text-xl font-bold mb-4" style={{ color: "#ffffff" }}>
-              Pillai University
+              Pillai College
             </h3>
             <p className="mb-4" style={{ color: "#ffffff" }}>
               Empowering students with knowledge, skills, and values to excel in a global society.
@@ -132,7 +132,7 @@ const Footer = () => {
 
         <div className="border-t-8 border-golden-light mt-8 pt-8 text-center">
           <p style={{ color: "#ffffff" }}>
-            © {new Date().getFullYear()} Pillai University. All rights reserved.
+            © {new Date().getFullYear()} Pillai College. All rights reserved.
           </p>
         </div>
       </div>
