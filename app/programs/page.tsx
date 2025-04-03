@@ -54,7 +54,7 @@ export default function ProgramsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">Our Programs</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Pillai University offers a wide range of academic programs designed to prepare students for successful
+              Pillai College offers a wide range of academic programs designed to prepare students for successful
               careers in their chosen fields.
             </p>
           </div>
@@ -92,7 +92,7 @@ export default function ProgramsPage() {
       <section className="py-16 gradient-color-1 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Why Choose Pillai University?</h2>
+            <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Why Choose Pillai College?</h2>
             <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-12">
               Our academic programs are designed to provide students with the knowledge, skills, and experiences they
               need to succeed in today's competitive world.
