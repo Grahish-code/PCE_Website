@@ -18,7 +18,7 @@ export default function PlacementsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">Placement Overview</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Pillai University has a strong track record of placing students in leading companies across various
+              Pillai College has a strong track record of placing students in leading companies across various
               industries. Our dedicated Placement Cell works tirelessly to connect students with the best career
               opportunities.
             </p>
@@ -240,7 +240,7 @@ export default function PlacementsPage() {
                 company: "Microsoft",
                 image: "/placeholder.svg?height=150&width=150&text=Student+1",
                 testimonial:
-                  "The placement training provided by Pillai University was instrumental in helping me secure a position at Microsoft. The mock interviews and technical workshops prepared me well for the recruitment process.",
+                  "The placement training provided by Pillai College was instrumental in helping me secure a position at Microsoft. The mock interviews and technical workshops prepared me well for the recruitment process.",
               },
               {
                 name: "Priya Patel",
