@@ -50,7 +50,7 @@ export default function AboutPage() {
                   <h3 className="text-2xl font-bold text-white">Our Vision</h3>
                 </div>
                 <p className="text-blue-100">
-                  To be a globally recognized university known for academic excellence, innovative research, and
+                  To be a globally recognized College known for academic excellence, innovative research, and
                   producing graduates who are not only skilled professionals but also responsible global citizens
                   committed to making a positive impact on society.
                 </p>
