@@ -93,7 +93,7 @@ export default function PlacementTeamPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">Our Team</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              The Placement Cell at Pillai University comprises experienced professionals dedicated to helping students
+              The Placement Cell at Pillai College comprises experienced professionals dedicated to helping students
               achieve their career goals.
             </p>
           </div>
@@ -144,7 +144,7 @@ export default function PlacementTeamPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl hero-text-enhanced">Our Mission</h2>
             <p className="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
-              The Placement Cell at Pillai University is committed to connecting students with the best career
+              The Placement Cell at Pillai College is committed to connecting students with the best career
               opportunities and preparing them for professional success.
             </p>
           </div>
@@ -164,7 +164,7 @@ export default function PlacementTeamPage() {
                   <h3 className="text-xl font-bold text-white mb-2">Vision</h3>
                   <p className="text-blue-100">
                     To be a premier placement cell that consistently achieves 100% placement for eligible students and
-                    establishes Pillai University as a preferred destination for recruiters across industries.
+                    establishes Pillai College as a preferred destination for recruiters across industries.
                   </p>
                 </div>
                 <div>
@@ -259,7 +259,7 @@ export default function PlacementTeamPage() {
                   <div>
                     <h4 className="font-semibold text-white mb-1">Address</h4>
                     <p className="text-blue-100">
-                      Placement Cell, Administrative Block, Pillai University, Dr. K. M. Vasudevan Pillai Campus, Plot
+                      Placement Cell, Administrative Block, Pillai College, Dr. K. M. Vasudevan Pillai Campus, Plot
                       No. 10, Sector 16, New Panvel, Navi Mumbai - 410206
                     </p>
                   </div>
@@ -379,7 +379,7 @@ export default function PlacementTeamPage() {
               />
             </div>
             <div>
-              <h3 className="text-2xl font-bold mb-6">Why Recruit from Pillai University?</h3>
+              <h3 className="text-2xl font-bold mb-6">Why Recruit from Pillai College?</h3>
               <div className="space-y-4 mb-6">
                 <div className="card-with-border p-4">
                   <h4 className="font-semibold">Talented Pool of Students</h4>
