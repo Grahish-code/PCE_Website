@@ -120,7 +120,7 @@ export default function TrainingDevelopmentPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">Our Training Approach</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              At Pillai University, we believe in preparing our students for successful careers through comprehensive
+              At Pillai College, we believe in preparing our students for successful careers through comprehensive
               training and development programs.
             </p>
           </div>
