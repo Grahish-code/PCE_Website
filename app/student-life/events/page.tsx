@@ -10,7 +10,7 @@ export default function EventsPage() {
       name: "Alegria",
       type: "Cultural Festival",
       description:
-        "Annual cultural festival featuring performances, competitions, workshops, and celebrity appearances. Alegria is one of the most anticipated events of the year, bringing together students from all colleges of Pillai University.",
+        "Annual cultural festival featuring performances, competitions, workshops, and celebrity appearances. Alegria is one of the most anticipated events of the year, bringing together students from all colleges of Pillai College.",
       date: "February",
       duration: "3 days",
       image: "/placeholder.svg?height=400&width=600&text=Alegria",
@@ -26,7 +26,7 @@ export default function EventsPage() {
       name: "Techtonic",
       type: "Technical Symposium",
       description:
-        "Technical symposium with coding competitions, project exhibitions, robotics challenges, and guest lectures from industry experts. Techtonic showcases the technical prowess of Pillai University students.",
+        "Technical symposium with coding competitions, project exhibitions, robotics challenges, and guest lectures from industry experts. Techtonic showcases the technical prowess of Pillai College students.",
       date: "March",
       duration: "2 days",
       image: "/placeholder.svg?height=400&width=600&text=Techtonic",
