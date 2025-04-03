@@ -153,7 +153,7 @@ export default function CampusFacilitiesPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">Our Campus Facilities</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Pillai University provides a range of modern facilities and amenities to ensure a comfortable and
+              Pillai College provides a range of modern facilities and amenities to ensure a comfortable and
               enriching campus life for our students.
             </p>
           </div>
