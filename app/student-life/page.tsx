@@ -229,7 +229,7 @@ export default function StudentLifePage() {
             <div>
               <h2 className="text-3xl font-bold sm:text-4xl mb-6">Sports & Recreation</h2>
               <p className="text-blue-100 mb-6">
-                At Pillai University, we believe in the holistic development of our students. Our extensive sports
+                At Pillai College, we believe in the holistic development of our students. Our extensive sports
                 facilities and programs encourage physical fitness, teamwork, and healthy competition among students.
               </p>
               <div className="space-y-4 mb-6">
@@ -238,7 +238,7 @@ export default function StudentLifePage() {
                   <div>
                     <h3 className="font-semibold text-white">Championship Teams</h3>
                     <p className="text-blue-100">
-                      Our university teams have won numerous inter-university tournaments in cricket, football,
+                      Our College teams have won numerous inter-university tournaments in cricket, football,
                       basketball, and athletics.
                     </p>
                   </div>
@@ -285,7 +285,7 @@ export default function StudentLifePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Student Testimonials</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Hear what our students have to say about their experience at Pillai University.
+              Hear what our students have to say about their experience at Pillai College.
             </p>
           </div>
 
@@ -296,7 +296,7 @@ export default function StudentLifePage() {
                 program: "B.Tech Computer Engineering",
                 year: "3rd Year",
                 testimonial:
-                  "The vibrant campus life at Pillai University has given me opportunities to explore my interests beyond academics. The tech club and cultural events have been the highlights of my journey so far.",
+                  "The vibrant campus life at Pillai College has given me opportunities to explore my interests beyond academics. The tech club and cultural events have been the highlights of my journey so far.",
                 image: "/placeholder.svg?height=300&width=300&text=Student+1",
               },
               {
@@ -344,10 +344,10 @@ export default function StudentLifePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6">
-              Ready to Experience Student Life at Pillai University?
+              Ready to Experience Student Life at Pillai College?
             </h2>
             <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
-              Join our vibrant community and make the most of your university years with endless opportunities for
+              Join our vibrant community and make the most of your College years with endless opportunities for
               growth and enjoyment.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
