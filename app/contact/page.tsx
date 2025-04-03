@@ -300,7 +300,7 @@ export default function ContactPage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6">Connect With Us on Social Media</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-              Stay updated with the latest news, events, and happenings at Pillai University by following us on social
+              Stay updated with the latest news, events, and happenings at Pillai College by following us on social
               media.
             </p>
             <div className="flex justify-center space-x-6">
