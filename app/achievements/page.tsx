@@ -273,7 +273,7 @@ export default function AchievementsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Our Recognitions</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Pillai University has been recognized for its excellence in various domains over the years.
+              Pillai College has been recognized for its excellence in various domains over the years.
             </p>
           </div>
 
@@ -506,7 +506,7 @@ export default function AchievementsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl text-white">Rankings & Accreditations</h2>
             <p className="mt-4 text-lg text-white max-w-3xl mx-auto">
-              Pillai University is proud to be recognized by various national and international accreditation bodies.
+              Pillai College is proud to be recognized by various national and international accreditation bodies.
             </p>
           </div>
 
