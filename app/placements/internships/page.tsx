@@ -352,7 +352,7 @@ export default function PlacementInternshipsPage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Ready to Launch Your Career?</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-              Join Pillai University and take advantage of our comprehensive placement and internship support to
+              Join Pillai College and take advantage of our comprehensive placement and internship support to
               kickstart your career.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
