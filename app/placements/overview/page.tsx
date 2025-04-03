@@ -14,7 +14,7 @@ export default function PlacementOverviewPage() {
       package: "₹18 LPA",
       image: "/placeholder.svg?height=150&width=150&text=Student+1",
       testimonial:
-        "The placement training provided by Pillai University was instrumental in helping me secure a position at Microsoft. The mock interviews and technical workshops prepared me well for the recruitment process.",
+        "The placement training provided by Pillai College was instrumental in helping me secure a position at Microsoft. The mock interviews and technical workshops prepared me well for the recruitment process.",
     },
     {
       name: "Priya Patel",
@@ -193,7 +193,7 @@ export default function PlacementOverviewPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl hero-text-enhanced">Testimonials & Success Stories</h2>
             <p className="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
-              Hear from our alumni about their placement experiences and how Pillai University helped them launch
+              Hear from our alumni about their placement experiences and how Pillai College helped them launch
               successful careers.
             </p>
           </div>
@@ -327,7 +327,7 @@ export default function PlacementOverviewPage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Ready to Launch Your Career?</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-              Join Pillai University and take advantage of our comprehensive placement support to kickstart your career.
+              Join Pillai College and take advantage of our comprehensive placement support to kickstart your career.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
