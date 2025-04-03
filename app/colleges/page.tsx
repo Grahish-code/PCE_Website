@@ -130,7 +130,7 @@ export default function CollegesPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Academic Excellence</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Pillai University comprises four distinguished colleges, each offering specialized education in their
+              Pillai College comprises four distinguished colleges, each offering specialized education in their
               respective fields. Our colleges are known for their academic rigor, innovative teaching methodologies, and
               industry-relevant curriculum.
             </p>
@@ -335,7 +335,7 @@ export default function CollegesPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl">Ready to Join Us?</h2>
             <p className="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
-              Take the first step towards a rewarding academic journey at Pillai University.
+              Take the first step towards a rewarding academic journey at Pillai College.
             </p>
           </div>
 
