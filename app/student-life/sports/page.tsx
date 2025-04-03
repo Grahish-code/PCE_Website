@@ -125,7 +125,7 @@ export default function SportsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">Our Sports Facilities</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              At Pillai University, we believe in the holistic development of our students. Our extensive sports
+              At Pillai College, we believe in the holistic development of our students. Our extensive sports
               facilities and programs encourage physical fitness, teamwork, and healthy competition.
             </p>
           </div>
@@ -373,7 +373,7 @@ export default function SportsPage() {
               <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Join Our Sports Teams</h2>
               <p className="text-blue-100 mb-6">
                 We have various sports teams that participate in inter-college, university, and national level
-                competitions. Join our teams to showcase your sporting talents and represent Pillai University.
+                competitions. Join our teams to showcase your sporting talents and represent Pillai College.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
