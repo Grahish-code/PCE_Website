@@ -136,7 +136,7 @@ export default function AdmissionsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text">Admission Process</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Follow these simple steps to join Pillai University and embark on your journey towards a successful
+              Follow these simple steps to join Pillai College and embark on your journey towards a successful
               career.
             </p>
           </div>
