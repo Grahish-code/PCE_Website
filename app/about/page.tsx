@@ -7,7 +7,7 @@ import { CheckCircle, Users, BookOpen, Award, Target, Globe } from "lucide-react
 export default function AboutPage() {
   return (
     <>
-      <HeroSection title="About Pillai University" subtitle="A legacy of excellence in education since 1998" />
+      <HeroSection title="About Pillai College" subtitle="A legacy of excellence in education since 1998" />
 
       <section className="py-16 section-alternate">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -154,7 +154,7 @@ export default function AboutPage() {
     <div className="text-center mb-12">
       <h2 className="text-3xl font-bold sm:text-4xl">Leadership</h2>
       <p className="mt-4 text-lg text-white max-w-3xl mx-auto">
-        Meet the visionaries guiding Pillai University towards excellence.
+        Meet the visionaries guiding Pillai College towards excellence.
       </p>
     </div>
 
