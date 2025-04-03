@@ -109,7 +109,7 @@ export default function ClubsPage() {
     <>
       <HeroSection
         title="Clubs & Societies"
-        subtitle="Explore the vibrant student clubs and societies that enrich campus life at Pillai University"
+        subtitle="Explore the vibrant student clubs and societies that enrich campus life at Pillai College"
         backgroundImage="/placeholder.svg?height=600&width=1600&text=Clubs+and+Societies"
       />
 
@@ -118,7 +118,7 @@ export default function ClubsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">Student Clubs</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              At Pillai University, we believe in holistic development. Our student clubs provide opportunities to
+              At Pillai College, we believe in holistic development. Our student clubs provide opportunities to
               explore interests, develop skills, and build lasting friendships beyond the classroom.
             </p>
           </div>
@@ -161,7 +161,7 @@ export default function ClubsPage() {
               <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Benefits of Joining Clubs</h2>
               <p className="text-blue-100 mb-6">
                 Participating in student clubs and societies offers numerous benefits that complement academic learning
-                and enhance the overall university experience.
+                and enhance the overall College experience.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
@@ -230,7 +230,7 @@ export default function ClubsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold sm:text-4xl gradient-text hero-text-enhanced">How to Join</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Joining a club or society at Pillai University is easy and open to all students.
+              Joining a club or society at Pillai College is easy and open to all students.
             </p>
           </div>
 
@@ -302,7 +302,7 @@ export default function ClubsPage() {
             <h2 className="text-3xl font-bold sm:text-4xl mb-6 hero-text-enhanced">Start Your Own Club</h2>
             <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
               Have a unique interest not represented by existing clubs? You can start your own club at Pillai
-              University!
+              College!
             </p>
             <Button asChild size="lg" className="bg-white text-black hover:bg-blue-50">
               <Link href="/student-life/clubs#start-club">Learn How to Start a Club</Link>
